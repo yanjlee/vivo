@@ -1,7 +1,7 @@
 Vivo Core staging tree 0.12.1
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/vivopay/vivo.svg?branch=master)](https://travis-ci.org/vivopay/vivo) `v0.12.0.x:` [![Build Status](https://travis-ci.org/vivopay/vivo.svg?branch=v0.12.0.x)](https://travis-ci.org/vivopay/vivo/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/vivopay/vivo.svg?branch=v0.12.1.x)](https://travis-ci.org/vivopay/vivo/branches)
+`master:` [![Build Status](https://travis-ci.org/vivocoin/vivo.svg?branch=master)](https://travis-ci.org/vivocoin/vivo) `v0.12.0.x:` [![Build Status](https://travis-ci.org/vivocoin/vivo.svg?branch=v0.12.0.x)](https://travis-ci.org/vivocoin/vivo/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/vivocoin/vivo.svg?branch=v0.12.1.x)](https://travis-ci.org/vivocoin/vivo/branches)
 
 https://www.vivo.org
 
@@ -29,7 +29,7 @@ Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/vivopay/vivo/tags) are created to indicate new official,
+[Tags](https://github.com/vivocoin/vivo/tags) are created to indicate new official,
 stable release versions of Vivo Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).

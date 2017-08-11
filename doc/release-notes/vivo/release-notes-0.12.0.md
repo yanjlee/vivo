@@ -4,11 +4,11 @@
 
 Vivo Core version 0.12.0 is now available from:
 
-  https://vivopay.io/downloads
+  https://vivocoin.io/downloads
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/vivopay/vivo/issues
+  https://github.com/vivocoin/vivo/issues
 
 
 How to Upgrade
