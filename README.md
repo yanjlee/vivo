@@ -9,14 +9,9 @@ https://www.vivocrypto.com
 What is Vivo?
 ----------------
 
-Vivo is an experimental new digital currency that enables anonymous, instant
-payments to anyone, anywhere in the world. Vivo uses peer-to-peer technology
-to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Vivo Core is the name of the open
-source software which enables the use of this currency.
-
-For more information, as well as an immediately useable, binary version of
-the Vivo Core software, see https://www.vivocrypto.com/.
+VIVO is an advanced, decentralized and secure digital currency. Based on Dash, it's an enhanced and further developed version, featuring the masternode technology, near-instant and secure payments as well as anonymous transactions. With a fast block time of only 2 minutes, transactions will usually confirm and be successfully processed very quickly. VIVO's blockchain uses the advanced NeoScrypt Proof-of-Work algorithm to secure the network. NeoScrypt is ASIC resistant and ensures a fair and stable return on investment for the miners.
+ 
+Additional information, wallets, specifications & roadmap: https://bitcointalk.org/index.php?topic=2110690.0
 
 
 License
