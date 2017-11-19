@@ -3,7 +3,7 @@ Construct a linear, no-fork, best version of the blockchain.
 
 ## Step 0: Install vivo_hash
 
-https://github.com/vivocoin/vivo_hash
+https://github.com/vivopay/vivo_hash
 
 ## Step 1: Download hash list
 

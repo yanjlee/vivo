@@ -8,7 +8,7 @@ packages:
 - "faketime"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/vivocoin/vivo-detached-sigs.git"
+- "url": "https://github.com/vivopay/vivo-detached-sigs.git"
   "dir": "signature"
 files:
 - "vivo-osx-unsigned.tar.gz"

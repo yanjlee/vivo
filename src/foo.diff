@@ -1,206 +1,205 @@
-40a41,51
-> /**
->  * Build the genesis block. Note that the output of its generation
->  * transaction cannot be spent since it did not originally exist in the
->  * database.
->  *
->  * CBlock(hash=00000ffd590b14, ver=1, hashPrevBlock=00000000000000, hashMerkleRoot=e0028e, nTime=1390095618, nBits=1e0ffff0, nNonce=28917698, vtx=1)
->  *   CTransaction(hash=e0028e, ver=1, vin.size=1, vout.size=1, nLockTime=0)
->  *     CTxIn(COutPoint(000000, -1), coinbase 04ffff001d01044c5957697265642030392f4a616e2f3230313420546865204772616e64204578706572696d656e7420476f6573204c6976653a204f76657273746f636b2e636f6d204973204e6f7720416363657074696e6720426974636f696e73)
->  *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
->  *   vMerkleTree: e0028e
->  */
-64,67c75,78
-<         consensus.nSubsidyHalvingInterval = 262800; // Note: actual number of blocks per calendar year with DGW v3 is ~200700 (for example 449750 - 249050)
-<         consensus.nMasternodePaymentsStartBlock = 5040; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
-<         consensus.nMasternodePaymentsIncreaseBlock = 158000; // actual historical value
-<         consensus.nMasternodePaymentsIncreasePeriod = 576*30; // 17280 - actual historical value
----
->         consensus.nSubsidyHalvingInterval = 262800; // one year
->         consensus.nMasternodePaymentsStartBlock = 5040; // one week
->         consensus.nMasternodePaymentsIncreaseBlock = 158000; // not used
->         consensus.nMasternodePaymentsIncreasePeriod = 576*30; // not used
-69,70c80,81
-<         consensus.nBudgetPaymentsStartBlock = 1798761600; // 2030
-<         consensus.nBudgetPaymentsCycleBlocks = 16616; // ~(60*24*30)/2.6, actual number of blocks per month is 200700 / 12 = 16725
----
->         consensus.nBudgetPaymentsStartBlock = 2100000000; // year 10000+
->         consensus.nBudgetPaymentsCycleBlocks = 16616;
-73,74c84,85
-<         consensus.nSuperblockStartBlock = 1798761600; // The block at which 12.1 goes live (end of final 12.0 budget cycle)
-<         consensus.nSuperblockCycle = 16616; // ~(60*24*30)/2.6, actual number of blocks per month is 200700 / 12 = 16725
----
->         consensus.nSuperblockStartBlock = 2100000000; // year 10000+
->         consensus.nSuperblockCycle = 16616;
-81,82c92,93
-<         consensus.BIP34Height = 55067; // FIX
-<         consensus.BIP34Hash = uint256S("0x00000000004b3e09be6799eb052c7fa250f30e6ab888780472c6b0d7f9d9a8e5"); // FIX
----
->         consensus.BIP34Height = 227931; // FIX
->         consensus.BIP34Hash = uint256S("0x000000000000024b89b42a942fe0d9fea3bb44ab7bd1b19115dd6a759c0808b8"); // FIX
-96,110c107,108
-<         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 1486252800; // Feb 5th, 2017
-<         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 1517788800; // Feb 5th, 2018
-< 
-<         // Deployment of DIP0001
-<         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].bit = 1;
-<         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nStartTime = 1510746823; // Nov 15th, 2017
-<         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nTimeout = 1542282851; // Nov 15th, 2018
-<         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nWindowSize = 4032;
-<         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nThreshold = 3226; // 80% of 4032
-< 
-<         // The best chain should have at least this much work.
-<         consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000094d6b93298da11"); // 55067
-< 
-<         // By default assume that the signatures in ancestors of this block are valid.
-<         consensus.defaultAssumeValid = uint256S("0x00000000004b3e09be6799eb052c7fa250f30e6ab888780472c6b0d7f9d9a8e5"); // 55067
----
->         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 1502280000; // Aug 9th, 2017
->         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 1533816000; // Aug 9th, 2018
-117,118d114
-< 
-<         // Vivo BIP44 coin type is '5'
-146a143,144
->         // Vivo BIP44 coin type is '5'
->         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x05).convert_to_container<std::vector<unsigned char> >();
-150,151d147
-<         nExtCoinType = 5;
-< 
-160d155
-< 
-166,179c161,164
-<             (  1500, uint256S("0x0000000000831ac61e55d98d7059a98c7a85dfb5886fccfa825a8c473a7d5c7f"))
-<             (  6500, uint256S("0x0000000000469a823097530f2befcdba927e4487aab39e9268d3252b8c585a02"))
-<             (  11500, uint256S("0x00000000012429419e8178a2091de2328cc58bdb97b871ce6ecf639c09399fd8"))
-<             ( 16500, uint256S("0x000000000022a1bb5b5eb595ea7f87d5b87043dce1c8cef8725d2762fdd8639f"))
-<             ( 21500, uint256S("0x000000000176bc525ea938a99fa20fa9bee10a8409f602dd3cac2ea55e0187c4"))
-<             ( 26500, uint256S("0x0000000000207ed37369b70632e4482e8db2b95dfb8375e5f4221bff9298b59b"))
-<             ( 31500, uint256S("0x0000000000e7bd2ab1fa43011fe6266ef58e8b7671530a4212b3dce23e370d4a"))
-<             ( 36500, uint256S("0x0000000000bf1bedb327c68f8e0dc776311f0f4969291d1a7aad7e7853837027"))
-<             ( 41500, uint256S("0x000000000090ec4415e7209c223b56298467944069c77b149e5171ace3470ed5"))
-<             ( 46500, uint256S("0x000000000058aa700bc2c95ce4928fe7890e47d932364cbe53bfd0da6cb75551"))
-<             ( 51500, uint256S("0x0000000000cf26c0843c389a5a85ae939b4a4ffa52d5298868997125010bee20"))
-< 	    ( 55080, uint256S("0x000000000040c6554d73679279bb984f41317c7b627190d08825454745e37ac8"))
-<             , // * UNIX timestamp of last checkpoint block
-<             84240,    // * total number of transactions between genesis and last checkpoint
----
->             (    0, uint256S("0x00000f6be3e151f9082a2b82c2916192a791090015b80979934a45d625460d62"))
->             ( 5290, uint256S("000000000346e7d6b167a7aeccf6e521d9d78a7e0fe95f5b47d854b0bfc23654")),
->             1503127892, // * UNIX timestamp of last checkpoint block
->             0,    // * total number of transactions between genesis and last checkpoint
-181c166
-<             1000        // * estimated number of transactions per day after checkpoint
----
->             2800        // * estimated number of transactions per day after checkpoint
-224,235c209,212
-<         // Deployment of DIP0001
-<         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].bit = 1;
-<         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nStartTime = 1510746823; // Nov 15th, 2017
-<         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nTimeout = 1542282851; // Nov 15th, 2018
-<         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nWindowSize = 4032;
-<         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nThreshold = 3226; // 80% of 4032
-< 
-<         // The best chain should have at least this much work.
-<         consensus.nMinimumChainWork = uint256S("00000000000000000000000000000000000000000000000000000003cd72a542"); //4000
-< 
-<         // By default assume that the signatures in ancestors of this block are valid.
-<         consensus.defaultAssumeValid = uint256S("00000ce22113f3eb8636e225d6a1691e132fdd587aed993e1bc9b07a0235eea4"); //4000
----
->         // Deployment of BIP68, BIP112, and BIP113.
->         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].bit = 0;
->         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 1502280000; // Aug 9th, 2017
->         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 1533816000; // Aug 9th, 2018
-246c223
-<         genesis = CreateGenesisBlock(1503127892, 2432118, 0x1e0ffff0, 1, 50 * COIN);
----
-> 	genesis = CreateGenesisBlock(1503127892, 2432118, 0x1e0ffff0, 1, 50 * COIN);
-264a242,243
->         // Testnet Vivo BIP44 coin type is '1' (All coin's testnet default)
->         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
-274,276d252
-<         // Testnet Vivo BIP44 coin type is '1' (All coin's testnet default)
-<         nExtCoinType = 1;
-< 
-279c255,256
-<         strSporkPubKey = "046f78dcf911fbd61910136f7f0f8d90578f68d0b3ac973b5040fb7afb501b5939f39b108b0569dca71488f5bbf498d92e4d1194f6f941307ffd95f75e76869f0e";
----
->         strSporkPubKey = "04075cbd8aca7ac8bf628fee499242d99daa7eea51d34a223e96cf489fd3b83088dd96d536aeec4d4252a46a29becb7b9e74b49bcea010092840d62fb0f3383bf8";
->         strMasternodePaymentsPubKey = "04075cbd8aca7ac8bf628fee499242d99daa7eea51d34a223e96cf489fd3b83088dd96d536aeec4d4252a46a29becb7b9e74b49bcea010092840d62fb0f3383bf8";
-283,285c260
-<             (    261, uint256S("0x00000c26026d0815a7e2ce4fa270775f61403c040647ff2c3091f99e894a4618"))
-<             (   1999, uint256S("0x00000052e538d27fa53693efe6fb6892a0c1d26c0235f599171c48a3cce553b1"))
-<             (   2999, uint256S("0x0000024bc3f4f4cb30d29827c13d921ad77d2c6072e586c7f60d83c2722cdcc5")),
----
->             ( 0, uint256S("0x00000f6be3e151f9082a2b82c2916192a791090015b80979934a45d625460d62")),
-287,288c262,263
-<             1462856598, // * UNIX timestamp of last checkpoint block
-<             3094,       // * total number of transactions between genesis and last checkpoint
----
->             1503127892, // * UNIX timestamp of last checkpoint block
->             0,     // * total number of transactions between genesis and last checkpoint
-324,325c299,300
-<         consensus.nPowTargetTimespan = 24 * 60 * 60; // Vivo: 1 day
-<         consensus.nPowTargetSpacing = 2.5 * 60; // Vivo: 2.5 minutes
----
->         consensus.nPowTargetTimespan = 60 * 60; // Vivo: 1 hour
->         consensus.nPowTargetSpacing = 2 * 60; // Vivo: 2 minutes
-336,349c311,315
-<         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].bit = 1;
-<         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nStartTime = 0;
-<         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nTimeout = 999999999999ULL;
-< 
-<         // The best chain should have at least this much work.
-<         consensus.nMinimumChainWork = uint256S("0x00");
-< 
-<         // By default assume that the signatures in ancestors of this block are valid.
-<         consensus.defaultAssumeValid = uint256S("0x00");
-< 
-<         pchMessageStart[0] = 0xfc;
-<         pchMessageStart[1] = 0xc1;
-<         pchMessageStart[2] = 0xb7;
-<         pchMessageStart[3] = 0xdc;
----
-> 
->         pchMessageStart[0] = 0xd1;
->         pchMessageStart[1] = 0x24;
->         pchMessageStart[2] = 0xb5;
->         pchMessageStart[3] = 0x7a;
-351,352c317
-<         nDelayGetHeadersTime = 0; // never delay GETHEADERS in regtests
-<         nDefaultPort = 19994;
----
->         nDefaultPort = 13855;
-355c320
-<         genesis = CreateGenesisBlock(1417713337, 1096447, 0x207fffff, 1, 50 * COIN);
----
->         genesis = CreateGenesisBlock(1503127892, 2432118, 0x1e0ffff0, 1, 50 * COIN);
-357,358c322,323
-<         assert(consensus.hashGenesisBlock == uint256S("0x000008ca1832a4baf228eb1553c03d3a2c8e02399550dd6ea8d65cec3ef23d2e"));
-<         assert(genesis.hashMerkleRoot == uint256S("0xe0028eb9648db56b1ac77cf090b99048a8007e2bb64b68f092c03c7f56a662c7"));
----
->         assert(consensus.hashGenesisBlock == uint256S("0x00000f6be3e151f9082a2b82c2916192a791090015b80979934a45d625460d62"));
->         assert(genesis.hashMerkleRoot == uint256S("0x35d3553e7bdc0568c8c37074cb7cc4bd930bd57ceff0799ddb0279487d3fd8df"));
-373c338
-<             ( 0, uint256S("0x000008ca1832a4baf228eb1553c03d3a2c8e02399550dd6ea8d65cec3ef23d2e")),
----
->             ( 0, uint256S("0x00000f6be3e151f9082a2b82c2916192a791090015b80979934a45d625460d62")),
-378,383c343,348
-<         // Regtest Vivo addresses start with 'y'
-<         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,140);
-<         // Regtest Vivo script addresses start with '8' or '9'
-<         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,19);
-<         // Regtest private keys start with '9' or 'c' (Bitcoin defaults)
-<         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
----
->         // Regtest Vivo addresses start with 'n'
->         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,112);
->         // Regtest Vivo script addresses start with '9'
->         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,20);
->         // Regtest private keys start with '9' or 'c' (Bitcoin defaults) (?)
->         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,240);
-388d352
-< 
-390c354
-<         nExtCoinType = 1;
----
->         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
+--- pow_old.cpp	2017-11-19 01:11:38.417281587 +0000
++++ pow.cpp	2017-11-15 13:31:54.000000000 +0000
+@@ -82,112 +82,111 @@
+ 
+ unsigned int static DarkGravityWave(const CBlockIndex* pindexLast, const Consensus::Params& params) {
+     /* current difficulty formula, vivo - DarkGravity v3, written by Evan Duffield - evan@vivo.org */
+-    const CBlockIndex *BlockLastSolved = pindexLast;
+-    const CBlockIndex *BlockReading = pindexLast;
+-    int64_t nActualTimespan = 0;
+-    int64_t LastBlockTime = 0;
+-    int64_t PastBlocksMin = 24;
+-    int64_t PastBlocksMax = 24;
+-    int64_t CountBlocks = 0;
+-    arith_uint256 PastDifficultyAverage;
+-    arith_uint256 PastDifficultyAveragePrev;
+-
+-    if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || BlockLastSolved->nHeight < PastBlocksMin) {
+-        return UintToArith256(params.powLimit).GetCompact();
+-    }
+-
+-    for (unsigned int i = 1; BlockReading && BlockReading->nHeight > 0; i++) {
+-        if (PastBlocksMax > 0 && i > PastBlocksMax) { break; }
+-        CountBlocks++;
+-
+-        if(CountBlocks <= PastBlocksMin) {
+-            if (CountBlocks == 1) { PastDifficultyAverage.SetCompact(BlockReading->nBits); }
+-            else { PastDifficultyAverage = ((PastDifficultyAveragePrev * CountBlocks) + (arith_uint256().SetCompact(BlockReading->nBits))) / (CountBlocks + 1); }
+-            PastDifficultyAveragePrev = PastDifficultyAverage;
+-        }
++    const arith_uint256 bnPowLimit = UintToArith256(params.powLimit);
++    int64_t nPastBlocks = 24;
+ 
+-        if(LastBlockTime > 0){
+-            int64_t Diff = (LastBlockTime - BlockReading->GetBlockTime());
+-            nActualTimespan += Diff;
++    // make sure we have at least (nPastBlocks + 1) blocks, otherwise just return powLimit
++    if (!pindexLast || pindexLast->nHeight < nPastBlocks) {
++        return bnPowLimit.GetCompact();
++    }
++
++    const CBlockIndex *pindex = pindexLast;
++    arith_uint256 bnPastTargetAvg;
++
++    for (unsigned int nCountBlocks = 1; nCountBlocks <= nPastBlocks; nCountBlocks++) {
++        arith_uint256 bnTarget = arith_uint256().SetCompact(pindex->nBits);
++        if (nCountBlocks == 1) {
++            bnPastTargetAvg = bnTarget;
++        } else {
++            // NOTE: that's not an average really...
++            bnPastTargetAvg = (bnPastTargetAvg * nCountBlocks + bnTarget) / (nCountBlocks + 1);
+         }
+-        LastBlockTime = BlockReading->GetBlockTime();
+ 
+-        if (BlockReading->pprev == NULL) { assert(BlockReading); break; }
+-        BlockReading = BlockReading->pprev;
++        if(nCountBlocks != nPastBlocks) {
++            assert(pindex->pprev); // should never fail
++            pindex = pindex->pprev;
++        }
+     }
+ 
+-    arith_uint256 bnNew(PastDifficultyAverage);
++    arith_uint256 bnNew(bnPastTargetAvg);
+ 
+-    int64_t _nTargetTimespan = CountBlocks * params.nPowTargetSpacing;
+-
+-    if (nActualTimespan < _nTargetTimespan/3)
+-        nActualTimespan = _nTargetTimespan/3;
+-    if (nActualTimespan > _nTargetTimespan*3)
+-        nActualTimespan = _nTargetTimespan*3;
++    int64_t nActualTimespan = pindexLast->GetBlockTime() - pindex->GetBlockTime();
++    // NOTE: is this accurate? nActualTimespan counts it for (nPastBlocks - 1) blocks only...
++    int64_t nTargetTimespan = nPastBlocks * params.nPowTargetSpacing;
++
++    if (nActualTimespan < nTargetTimespan/3)
++        nActualTimespan = nTargetTimespan/3;
++    if (nActualTimespan > nTargetTimespan*3)
++        nActualTimespan = nTargetTimespan*3;
+ 
+     // Retarget
+     bnNew *= nActualTimespan;
+-    bnNew /= _nTargetTimespan;
++    bnNew /= nTargetTimespan;
+ 
+-    if (bnNew > UintToArith256(params.powLimit)){
+-        bnNew = UintToArith256(params.powLimit);
++    if (bnNew > bnPowLimit) {
++        bnNew = bnPowLimit;
+     }
+ 
+     return bnNew.GetCompact();
+ }
+ 
++unsigned int GetNextWorkRequiredBTC(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
++{
++    unsigned int nProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
++
++    // Genesis block
++    if (pindexLast == NULL)
++        return nProofOfWorkLimit;
++
++    // Only change once per interval
++    if ((pindexLast->nHeight+1) % params.DifficultyAdjustmentInterval() != 0)
++    {
++        if (params.fPowAllowMinDifficultyBlocks)
++        {
++            // Special difficulty rule for testnet:
++            // If the new block's timestamp is more than 2* 2.5 minutes
++            // then allow mining of a min-difficulty block.
++            if (pblock->GetBlockTime() > pindexLast->GetBlockTime() + params.nPowTargetSpacing*2)
++                return nProofOfWorkLimit;
++            else
++            {
++                // Return the last non-special-min-difficulty-rules-block
++                const CBlockIndex* pindex = pindexLast;
++                while (pindex->pprev && pindex->nHeight % params.DifficultyAdjustmentInterval() != 0 && pindex->nBits == nProofOfWorkLimit)
++                    pindex = pindex->pprev;
++                return pindex->nBits;
++            }
++        }
++        return pindexLast->nBits;
++    }
++
++    // Go back by what we want to be 1 day worth of blocks
++    int nHeightFirst = pindexLast->nHeight - (params.DifficultyAdjustmentInterval()-1);
++    assert(nHeightFirst >= 0);
++    const CBlockIndex* pindexFirst = pindexLast->GetAncestor(nHeightFirst);
++    assert(pindexFirst);
++
++   return CalculateNextWorkRequired(pindexLast, pindexFirst->GetBlockTime(), params);
++}
++
+ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
+ {
+     unsigned int retarget = DIFF_DGW;
+ 
+-    // mainnet/regtest share a configuration 
++    // mainnet/regtest share a configuration
+     if (Params().NetworkIDString() == CBaseChainParams::MAIN || Params().NetworkIDString() == CBaseChainParams::REGTEST) {
+         if (pindexLast->nHeight + 1 >= 15200) retarget = DIFF_DGW;
+         else retarget = DIFF_BTC;
+-    // testnet -- we want a lot of coins in existance early on 
++    // testnet -- we want a lot of coins in existance early on
+     } else {
+         if (pindexLast->nHeight + 1 >= 3000) retarget = DIFF_DGW;
+         else retarget = DIFF_BTC;
+     }
+ 
+-    // Default Bitcoin style retargeting
++    // Bitcoin style retargeting
+     if (retarget == DIFF_BTC)
+     {
+-        unsigned int nProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
+-
+-        // Genesis block
+-        if (pindexLast == NULL)
+-            return nProofOfWorkLimit;
+-
+-        // Only change once per interval
+-        if ((pindexLast->nHeight+1) % params.DifficultyAdjustmentInterval() != 0)
+-        {
+-            if (params.fPowAllowMinDifficultyBlocks)
+-            {
+-                // Special difficulty rule for testnet:
+-                // If the new block's timestamp is more than 2* 2.5 minutes
+-                // then allow mining of a min-difficulty block.
+-                if (pblock->GetBlockTime() > pindexLast->GetBlockTime() + params.nPowTargetSpacing*2)
+-                    return nProofOfWorkLimit;
+-                else
+-                {
+-                    // Return the last non-special-min-difficulty-rules-block
+-                    const CBlockIndex* pindex = pindexLast;
+-                    while (pindex->pprev && pindex->nHeight % params.DifficultyAdjustmentInterval() != 0 && pindex->nBits == nProofOfWorkLimit)
+-                        pindex = pindex->pprev;
+-                    return pindex->nBits;
+-                }
+-            }
+-            return pindexLast->nBits;
+-        }
+-
+-        // Go back by what we want to be 1 day worth of blocks
+-        int nHeightFirst = pindexLast->nHeight - (params.DifficultyAdjustmentInterval()-1);
+-        assert(nHeightFirst >= 0);
+-        const CBlockIndex* pindexFirst = pindexLast->GetAncestor(nHeightFirst);
+-        assert(pindexFirst);
+-
+-       return CalculateNextWorkRequired(pindexLast, pindexFirst->GetBlockTime(), params);
++        return GetNextWorkRequiredBTC(pindexLast, pblock, params);
+     }
+ 
+     // Retarget using Kimoto Gravity Wave
+@@ -196,12 +195,7 @@
+         return KimotoGravityWell(pindexLast, params);
+     }
+ 
+-    // Retarget using Dark Gravity Wave 3
+-    else if (retarget == DIFF_DGW)
+-    {
+-        return DarkGravityWave(pindexLast, params);
+-    }
+-
++    // Retarget using Dark Gravity Wave 3 by default
+     return DarkGravityWave(pindexLast, params);
+ }
+ 

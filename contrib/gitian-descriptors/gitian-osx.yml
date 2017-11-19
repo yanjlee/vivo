@@ -23,7 +23,7 @@ packages:
 - "python"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/vivocoin/vivo.git"
+- "url": "https://github.com/vivopay/vivo.git"
   "dir": "vivo"
 files:
 - "MacOSX10.9.sdk.tar.gz"
