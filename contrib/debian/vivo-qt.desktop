@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Vivo
+Comment=Vivo P2P Cryptocurrency
+Comment[fr]=Vivo, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Vivo, eşten eşe kriptografik sanal para birimi
+Exec=vivo-qt %u
+Terminal=false
+Type=Application
+Icon=vivo128
+MimeType=x-scheme-handler/vivo;
+Categories=Office;Finance;
