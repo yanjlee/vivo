@@ -19,13 +19,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Vivo"
-            VALUE "FileDescription",    "Vivo Core (GUI node for VIVO)"
+            VALUE "FileDescription",    "Vivo Core (GUI node for Vivo)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "vivo-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "vivo-qt.exe"
-            VALUE "ProductName",        "VIVO Core"
+            VALUE "ProductName",        "Vivo Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
