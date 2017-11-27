@@ -90,9 +90,8 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     }
     
     /* Theme selector */
-    ui->theme->addItem(QString("VIVO-light"), QVariant("light"));
-    ui->theme->addItem(QString("VIVO-blue"), QVariant("drkblue"));
-    ui->theme->addItem(QString("VIVO-traditional"), QVariant("trad"));
+    ui->theme->addItem(QString("VIVO Traditional"), QVariant("light"));
+    ui->theme->addItem(QString("VIVO Modern"), QVariant("drkblue"));
     
     /* Language selector */
     QDir translations(":translations");
