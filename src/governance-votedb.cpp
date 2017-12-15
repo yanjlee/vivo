@@ -53,11 +53,11 @@ std::vector<CGovernanceVote> CGovernanceObjectVoteFile::GetVotes() const
     return vecResult;
 }
 
-void CGovernanceObjectVoteFile::RemoveVotesFromMasternode(const COutPoint& outpointMasternode)
+void CGovernanceObjectVoteFile::RemoveVotesFromMasternode(const CTxIn& vinMasternode)
 {
     vote_l_it it = listVotes.begin();
     while(it != listVotes.end()) {
-        if(it->GetMasternodeOutpoint() == outpointMasternode) {
+        if(it->GetVinMasternode() == vinMasternode) {
             --nMemoryVotes;
             mapVoteIndex.erase(it->GetHash());
             listVotes.erase(it++);

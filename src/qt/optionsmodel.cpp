@@ -14,9 +14,8 @@
 
 #include "amount.h"
 #include "init.h"
-#include "validation.h" // For DEFAULT_SCRIPTCHECK_THREADS
+#include "main.h" // For DEFAULT_SCRIPTCHECK_THREADS
 #include "net.h"
-#include "netbase.h"
 #include "txdb.h" // for -dbcache defaults
 
 #ifdef ENABLE_WALLET
@@ -24,10 +23,10 @@
 #include "wallet/walletdb.h"
 #endif
 
+#include "darksend.h"
 #ifdef ENABLE_WALLET
 #include "masternodeconfig.h"
 #endif
-#include "privatesend-client.h"
 
 #include <QNetworkProxy>
 #include <QSettings>
@@ -60,14 +59,9 @@ void OptionsModel::Init(bool resetSettings)
     // These are Qt-only settings:
 
     // Window
-    if (!settings.contains("fHideTrayIcon"))
-        settings.setValue("fHideTrayIcon", false);
-    fHideTrayIcon = settings.value("fHideTrayIcon").toBool();
-    Q_EMIT hideTrayIconChanged(fHideTrayIcon);
-    
     if (!settings.contains("fMinimizeToTray"))
         settings.setValue("fMinimizeToTray", false);
-    fMinimizeToTray = settings.value("fMinimizeToTray").toBool() && !fHideTrayIcon;
+    fMinimizeToTray = settings.value("fMinimizeToTray").toBool();
 
     if (!settings.contains("fMinimizeOnClose"))
         settings.setValue("fMinimizeOnClose", false);
@@ -92,7 +86,7 @@ void OptionsModel::Init(bool resetSettings)
         settings.setValue("theme", "");
 
     if (!settings.contains("fShowMasternodesTab"))
-        settings.setValue("fShowMasternodesTab", DEFAULT_SHOW_MASTERNODES_TAB);
+        settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
 
     if (!settings.contains("fShowAdvancedPSUI"))
         settings.setValue("fShowAdvancedPSUI", false);
@@ -132,7 +126,7 @@ void OptionsModel::Init(bool resetSettings)
         settings.setValue("nPrivateSendRounds", DEFAULT_PRIVATESEND_ROUNDS);
     if (!SoftSetArg("-privatesendrounds", settings.value("nPrivateSendRounds").toString().toStdString()))
         addOverriddenOption("-privatesendrounds");
-    privateSendClient.nPrivateSendRounds = settings.value("nPrivateSendRounds").toInt();
+    nPrivateSendRounds = settings.value("nPrivateSendRounds").toInt();
 
     if (!settings.contains("nPrivateSendAmount")) {
         // for migration from old settings
@@ -143,13 +137,13 @@ void OptionsModel::Init(bool resetSettings)
     }
     if (!SoftSetArg("-privatesendamount", settings.value("nPrivateSendAmount").toString().toStdString()))
         addOverriddenOption("-privatesendamount");
-    privateSendClient.nPrivateSendAmount = settings.value("nPrivateSendAmount").toInt();
+    nPrivateSendAmount = settings.value("nPrivateSendAmount").toInt();
 
     if (!settings.contains("fPrivateSendMultiSession"))
         settings.setValue("fPrivateSendMultiSession", DEFAULT_PRIVATESEND_MULTISESSION);
     if (!SoftSetBoolArg("-privatesendmultisession", settings.value("fPrivateSendMultiSession").toBool()))
         addOverriddenOption("-privatesendmultisession");
-    privateSendClient.fPrivateSendMultiSession = settings.value("fPrivateSendMultiSession").toBool();
+    fPrivateSendMultiSession = settings.value("fPrivateSendMultiSession").toBool();
 #endif
 
     // Network
@@ -220,8 +214,6 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
         {
         case StartAtStartup:
             return GUIUtil::GetStartOnSystemStartup();
-        case HideTrayIcon:
-            return fHideTrayIcon;
         case MinimizeToTray:
             return fMinimizeToTray;
         case MapPortUPnP:
@@ -313,11 +305,6 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
         {
         case StartAtStartup:
             successful = GUIUtil::SetStartOnSystemStartup(value.toBool());
-            break;
-        case HideTrayIcon:
-            fHideTrayIcon = value.toBool();
-            settings.setValue("fHideTrayIcon", fHideTrayIcon);
-    		Q_EMIT hideTrayIconChanged(fHideTrayIcon);
             break;
         case MinimizeToTray:
             fMinimizeToTray = value.toBool();
@@ -420,24 +407,24 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
         case PrivateSendRounds:
             if (settings.value("nPrivateSendRounds") != value)
             {
-                privateSendClient.nPrivateSendRounds = value.toInt();
-                settings.setValue("nPrivateSendRounds", privateSendClient.nPrivateSendRounds);
+                nPrivateSendRounds = value.toInt();
+                settings.setValue("nPrivateSendRounds", nPrivateSendRounds);
                 Q_EMIT privateSendRoundsChanged();
             }
             break;
         case PrivateSendAmount:
             if (settings.value("nPrivateSendAmount") != value)
             {
-                privateSendClient.nPrivateSendAmount = value.toInt();
-                settings.setValue("nPrivateSendAmount", privateSendClient.nPrivateSendAmount);
+                nPrivateSendAmount = value.toInt();
+                settings.setValue("nPrivateSendAmount", nPrivateSendAmount);
                 Q_EMIT privateSentAmountChanged();
             }
             break;
         case PrivateSendMultiSession:
             if (settings.value("fPrivateSendMultiSession") != value)
             {
-                privateSendClient.fPrivateSendMultiSession = value.toBool();
-                settings.setValue("fPrivateSendMultiSession", privateSendClient.fPrivateSendMultiSession);
+                fPrivateSendMultiSession = value.toBool();
+                settings.setValue("fPrivateSendMultiSession", fPrivateSendMultiSession);
             }
             break;
 #endif

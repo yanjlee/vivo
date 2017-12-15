@@ -23,7 +23,7 @@ If you screw up something, send another alert with nCancel set to cancel
 the bad alert.
 */
 
-void ThreadSendAlert(CConnman& connman)
+void ThreadSendAlert()
 {
     if (!mapArgs.count("-sendalert") && !mapArgs.count("-printalert"))
         return;
@@ -42,8 +42,8 @@ void ThreadSendAlert(CConnman& connman)
     // Nodes never save alerts to disk, they are in-memory-only.
     //
     CAlert alert;
-    alert.nRelayUntil   = GetAdjustedTime() + 15 * 60;
-    alert.nExpiration   = GetAdjustedTime() + 30 * 60 * 60;
+    alert.nRelayUntil   = GetTime() + 15 * 60;
+    alert.nExpiration   = GetTime() + 30 * 60 * 60;
     alert.nID           = 1;  // keep track of alert IDs somewhere
     alert.nCancel       = 0;   // cancels previous messages up to this ID number
 
@@ -91,7 +91,7 @@ void ThreadSendAlert(CConnman& connman)
     // Confirm
     if (!mapArgs.count("-sendalert"))
         return;
-    while (connman.GetNodeCount(CConnman::CONNECTIONS_ALL) == 0 && !ShutdownRequested())
+    while (vNodes.empty() && !ShutdownRequested())
         MilliSleep(500);
     if (ShutdownRequested())
         return;
@@ -100,13 +100,15 @@ void ThreadSendAlert(CConnman& connman)
     printf("ThreadSendAlert() : Sending alert\n");
     int nSent = 0;
     {
-        connman.ForEachNode([&alert2, &connman, &nSent](CNode* pnode) {
-            if (alert2.RelayTo(pnode, connman))
+        LOCK(cs_vNodes);
+        BOOST_FOREACH(CNode* pnode, vNodes)
+        {
+            if (alert2.RelayTo(pnode))
             {
                 printf("ThreadSendAlert() : Sent alert to %s\n", pnode->addr.ToString().c_str());
                 nSent++;
             }
-        });
+        }
     }
     printf("ThreadSendAlert() : Alert sent to %d nodes\n", nSent);
 }

@@ -6,7 +6,7 @@
 #include "random.h"
 #include "uint256.h"
 #include "test/test_vivo.h"
-#include "validation.h"
+#include "main.h"
 #include "consensus/validation.h"
 
 #include <vector>

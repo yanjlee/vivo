@@ -10,7 +10,6 @@
 #include "util.h"
 #include "uritests.h"
 #include "compattests.h"
-#include "trafficgraphdatatests.h"
 
 #ifdef ENABLE_WALLET
 #include "paymentservertests.h"
@@ -53,10 +52,6 @@ int main(int argc, char *argv[])
 #endif
     CompatTests test4;
     if (QTest::qExec(&test4) != 0)
-        fInvalid = true;
-
-    TrafficGraphDataTests test5;
-    if (QTest::qExec(&test5) != 0)
         fInvalid = true;
 
     return fInvalid;

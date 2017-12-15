@@ -8,7 +8,7 @@
 #include "chain.h"
 #include "chainparams.h"
 #include "hash.h"
-#include "validation.h"
+#include "main.h"
 #include "pow.h"
 #include "uint256.h"
 
@@ -336,11 +336,11 @@ bool CBlockTreeDB::LoadBlockIndexGuts()
                 pindexNew->nTx            = diskindex.nTx;
 
                 if (!CheckProofOfWork(pindexNew->GetBlockHash(), pindexNew->nBits, Params().GetConsensus()))
-                    return error("%s: CheckProofOfWork failed: %s", __func__, pindexNew->ToString());
+                    return error("LoadBlockIndex(): CheckProofOfWork failed: %s", pindexNew->ToString());
 
                 pcursor->Next();
             } else {
-                return error("%s: failed to read value", __func__);
+                return error("LoadBlockIndex() : failed to read value");
             }
         } else {
             break;

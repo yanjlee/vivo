@@ -7,7 +7,7 @@
 
 #include "policy/policy.h"
 
-#include "validation.h"
+#include "main.h"
 #include "tinyformat.h"
 #include "util.h"
 #include "utilstrencodings.h"

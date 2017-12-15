@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="en">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="en" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -210,12 +208,7 @@
         <translation>Change passphrase</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Enter the old passphrase and new passphrase to the wallet.</translation>
-    </message>
-    <message>
-        <location line="+44"/>
+        <location line="+46"/>
         <source>Confirm wallet encryption</source>
         <translation>Confirm wallet encryption</translation>
     </message>
@@ -236,7 +229,12 @@
         <translation>Wallet encrypted</translation>
     </message>
     <message>
-        <location line="-57"/>
+        <location line="-114"/>
+        <source>Enter the old passphrase and new passphrase to the wallet.</source>
+        <translation>Enter the old passphrase and new passphrase to the wallet.</translation>
+    </message>
+    <message>
+        <location line="+57"/>
         <source>Vivo Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your vivos from being stolen by malware infecting your computer.</source>
         <translation>Vivo Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your vivos from being stolen by malware infecting your computer.</translation>
     </message>
@@ -296,7 +294,7 @@
 <context>
     <name>BanTableModel</name>
     <message>
-        <location filename="../bantablemodel.cpp" line="+89"/>
+        <location filename="../bantablemodel.cpp" line="+88"/>
         <source>IP/Netmask</source>
         <translation>IP/Netmask</translation>
     </message>
@@ -309,18 +307,13 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../vivo.cpp" line="+542"/>
-        <source>A fatal error occurred. Vivo Core can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. Vivo Core can no longer continue safely and will quit.</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="+130"/>
-        <location line="+988"/>
+        <location filename="../bitcoingui.cpp" line="+127"/>
+        <location line="+919"/>
         <source>Vivo Core</source>
         <translation>Vivo Core</translation>
     </message>
     <message>
-        <location line="-979"/>
+        <location line="-910"/>
         <source>Wallet</source>
         <translation>Wallet</translation>
     </message>
@@ -330,7 +323,7 @@
         <translation>Node</translation>
     </message>
     <message>
-        <location line="+147"/>
+        <location line="+138"/>
         <source>&amp;Overview</source>
         <translation>&amp;Overview</translation>
     </message>
@@ -415,12 +408,7 @@
         <translation>&amp;Options...</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Modify configuration options for Vivo Core</source>
-        <translation>Modify configuration options for Vivo Core</translation>
-    </message>
-    <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Show / Hide</translation>
     </message>
@@ -545,27 +533,12 @@
         <translation>Show wallet repair options</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Open Wallet &amp;Configuration File</source>
-        <translation>Open Wallet &amp;Configuration File</translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Open configuration file</source>
         <translation>Open configuration file</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Open &amp;Masternode Configuration File</source>
-        <translation>Open &amp;Masternode Configuration File</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open Masternode configuration file</source>
-        <translation>Open Masternode configuration file</translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location line="+3"/>
         <source>Show Automatic &amp;Backups</source>
         <translation>Show Automatic &amp;Backups</translation>
     </message>
@@ -610,22 +583,17 @@
         <translation>&amp;Command-line options</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Show the Vivo Core help message to get a list with possible Vivo Core command-line options</source>
-        <translation>Show the Vivo Core help message to get a list with possible Vivo Core command-line options</translation>
+        <location line="+267"/>
+        <source>Vivo Core client</source>
+        <translation>Vivo Core client</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>&amp;PrivateSend information</source>
-        <translation>&amp;PrivateSend information</translation>
+        <location line="+334"/>
+        <source>Synchronizing additional data: %p%</source>
+        <translation>Synchronizing additional data: %p%</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Show the PrivateSend basic information</source>
-        <translation>Show the PrivateSend basic information</translation>
-    </message>
-    <message>
-        <location line="+62"/>
+        <location line="-533"/>
         <source>&amp;File</source>
         <translation>&amp;File</translation>
     </message>
@@ -649,64 +617,104 @@
         <source>Tabs toolbar</source>
         <translation>Tabs toolbar</translation>
     </message>
-    <message>
-        <location line="+168"/>
-        <source>Vivo Core client</source>
-        <translation>Vivo Core client</translation>
-    </message>
     <message numerus="yes">
-        <location line="+200"/>
+        <location line="+347"/>
         <source>%n active connection(s) to Vivo network</source>
-        <translation>
-            <numerusform>%n active connection to Vivo network</numerusform>
-            <numerusform>%n active connections to Vivo network</numerusform>
-        </translation>
+        <translation><numerusform>%n active connection to Vivo network</numerusform><numerusform>%n active connections to Vivo network</numerusform></translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Network activity disabled</source>
-        <translation>Network activity disabled</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Syncing Headers (%1%)...</source>
-        <translation>Syncing Headers (%1%)...</translation>
-    </message>
-    <message>
-        <location line="+26"/>
+        <location line="+15"/>
         <source>Synchronizing with network...</source>
         <translation>Synchronizing with network...</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Indexing blocks on disk...</source>
-        <translation>Indexing blocks on disk...</translation>
+        <location line="+3"/>
+        <source>Importing blocks from disk...</source>
+        <translation>Importing blocks from disk...</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Processing blocks on disk...</source>
-        <translation>Processing blocks on disk...</translation>
-    </message>
-    <message>
-        <location line="+4"/>
+        <location line="+3"/>
         <source>Reindexing blocks on disk...</source>
         <translation>Reindexing blocks on disk...</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Connecting to peers...</source>
-        <translation>Connecting to peers...</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+9"/>
-        <source>Processed %n block(s) of transaction history.</source>
-        <translation>
-            <numerusform>Processed %n block of transaction history.</numerusform>
-            <numerusform>Processed %n blocks of transaction history.</numerusform>
-        </translation>
+        <location line="+4"/>
+        <source>No block source available...</source>
+        <translation>No block source available...</translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+92"/>
+        <source>Up to date</source>
+        <translation>Up to date</translation>
+    </message>
+    <message numerus="yes">
+        <location line="-68"/>
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n hour</numerusform><numerusform>%n hours</numerusform></translation>
+    </message>
+    <message>
+        <location line="-567"/>
+        <source>Modify configuration options for Vivo Core</source>
+        <translation>Modify configuration options for Vivo Core</translation>
+    </message>
+    <message>
+        <location line="+31"/>
+        <source>Open Wallet &amp;Configuration File</source>
+        <translation>Open Wallet &amp;Configuration File</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Open &amp;Masternode Configuration File</source>
+        <translation>Open &amp;Masternode Configuration File</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open Masternode configuration file</source>
+        <translation>Open Masternode configuration file</translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Show the Vivo Core help message to get a list with possible Vivo Core command-line options</source>
+        <translation>Show the Vivo Core help message to get a list with possible Vivo Core command-line options</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>&amp;PrivateSend information</source>
+        <translation>&amp;PrivateSend information</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Show the PrivateSend basic information</source>
+        <translation>Show the PrivateSend basic information</translation>
+    </message>
+    <message numerus="yes">
+        <location line="+494"/>
+        <source>Processed %n block(s) of transaction history.</source>
+        <translation><numerusform>Processed %n block(s) of transaction history.</numerusform><numerusform>Processed %n block(s) of transaction history.</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <location line="+19"/>
+        <source>%n day(s)</source>
+        <translation><numerusform>%n day</numerusform><numerusform>%n days</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <location line="+4"/>
+        <location line="+6"/>
+        <source>%n week(s)</source>
+        <translation><numerusform>%n week</numerusform><numerusform>%n weeks</numerusform></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>%1 and %2</source>
+        <translation>%1 and %2</translation>
+    </message>
+    <message numerus="yes">
+        <location line="+0"/>
+        <source>%n year(s)</source>
+        <translation><numerusform>%n year</numerusform><numerusform>%n years</numerusform></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>%1 behind</source>
         <translation>%1 behind</translation>
     </message>
@@ -716,7 +724,7 @@
         <translation>Catching up...</translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="+16"/>
         <source>Last received block was generated %1 ago.</source>
         <translation>Last received block was generated %1 ago.</translation>
     </message>
@@ -726,17 +734,7 @@
         <translation>Transactions after this will not yet be visible.</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Up to date</source>
-        <translation>Up to date</translation>
-    </message>
-    <message>
-        <location line="+18"/>
-        <source>Synchronizing additional data: %p%</source>
-        <translation>Synchronizing additional data: %p%</translation>
-    </message>
-    <message>
-        <location line="+33"/>
+        <location line="+79"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
@@ -796,27 +794,17 @@
         <translation>Incoming transaction</translation>
     </message>
     <message>
-        <location line="+54"/>
-        <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location line="+10"/>
+        <location line="+75"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for mixing only</source>
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for mixing only</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="-10"/>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
+        <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <location line="+20"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
@@ -824,12 +812,12 @@
 <context>
     <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+83"/>
+        <location filename="../clientmodel.cpp" line="+79"/>
         <source>Total: %1 (PS compatible: %2 / Enabled: %3)</source>
         <translation>Total: %1 (PS compatible: %2 / Enabled: %3)</translation>
     </message>
     <message>
-        <location line="+116"/>
+        <location line="+91"/>
         <source>Network Alert</source>
         <translation>Network Alert</translation>
     </message>
@@ -852,22 +840,27 @@
         <translation>Amount:</translation>
     </message>
     <message>
-        <location line="+80"/>
+        <location line="+29"/>
+        <source>Priority:</source>
+        <translation>Priority:</translation>
+    </message>
+    <message>
+        <location line="+45"/>
         <source>Fee:</source>
         <translation>Fee:</translation>
     </message>
     <message>
-        <location line="-188"/>
+        <location line="-182"/>
         <source>Coin Selection</source>
         <translation>Coin Selection</translation>
     </message>
     <message>
-        <location line="+140"/>
+        <location line="+214"/>
         <source>Dust:</source>
         <translation>Dust:</translation>
     </message>
     <message>
-        <location line="+93"/>
+        <location line="+48"/>
         <source>After Fee:</source>
         <translation>After Fee:</translation>
     </message>
@@ -937,6 +930,11 @@
         <translation>Confirmed</translation>
     </message>
     <message>
+        <location line="+5"/>
+        <source>Priority</source>
+        <translation>Priority</translation>
+    </message>
+    <message>
         <location filename="../coincontroldialog.cpp" line="+54"/>
         <source>Copy address</source>
         <translation>Copy address</translation>
@@ -989,6 +987,11 @@
     </message>
     <message>
         <location line="+1"/>
+        <source>Copy priority</source>
+        <translation>Copy priority</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Copy dust</source>
         <translation>Copy dust</translation>
     </message>
@@ -998,34 +1001,49 @@
         <translation>Copy change</translation>
     </message>
     <message>
-        <location line="+159"/>
+        <location line="+163"/>
         <source>Please switch to &quot;List mode&quot; to use this function.</source>
         <translation>Please switch to &quot;List mode&quot; to use this function.</translation>
     </message>
     <message>
-        <location line="+198"/>
+        <location line="+205"/>
         <source>Non-anonymized input selected. &lt;b&gt;PrivateSend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use PrivateSend, please deselect all non-nonymized inputs first and then check PrivateSend checkbox again.</source>
         <translation>Non-anonymized input selected. &lt;b&gt;PrivateSend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use PrivateSend, please deselect all non-nonymized inputs first and then check PrivateSend checkbox again.</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>(%1 locked)</source>
-        <translation>(%1 locked)</translation>
+        <location line="+32"/>
+        <source>highest</source>
+        <translation>highest</translation>
     </message>
     <message>
-        <location line="+179"/>
-        <source>yes</source>
-        <translation>yes</translation>
+        <location line="+1"/>
+        <source>higher</source>
+        <translation>higher</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>no</source>
-        <translation>no</translation>
+        <location line="+1"/>
+        <source>high</source>
+        <translation>high</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>This label turns red if any recipient receives an amount smaller than the current dust threshold.</translation>
+        <location line="+1"/>
+        <source>medium-high</source>
+        <translation>medium-high</translation>
+    </message>
+    <message>
+        <location line="+216"/>
+        <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
+        <translation>This label turns red if the transaction size is greater than 1000 bytes.</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>This label turns red if the priority is smaller than &quot;medium&quot;.</source>
+        <translation>This label turns red if the priority is smaller than &quot;medium&quot;.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>This label turns red if any recipient receives an amount smaller than %1.</source>
+        <translation>This label turns red if any recipient receives an amount smaller than %1.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1033,8 +1051,76 @@
         <translation>Can vary +/- %1 duff(s) per input.</translation>
     </message>
     <message>
-        <location line="+43"/>
-        <location line="+56"/>
+        <location line="+131"/>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
+        <location filename="../forms/coincontroldialog.ui" line="-334"/>
+        <location filename="../coincontroldialog.cpp" line="-363"/>
+        <source>medium</source>
+        <translation>medium</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="+1"/>
+        <source>low-medium</source>
+        <translation>low-medium</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>low</source>
+        <translation>low</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>lower</source>
+        <translation>lower</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>lowest</source>
+        <translation>lowest</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>(%1 locked)</source>
+        <translation>(%1 locked)</translation>
+    </message>
+    <message>
+        <location line="+28"/>
+        <source>none</source>
+        <translation>none</translation>
+    </message>
+    <message>
+        <location line="+157"/>
+        <source>yes</source>
+        <translation>yes</translation>
+    </message>
+    <message>
+        <location filename="../forms/coincontroldialog.ui" line="+80"/>
+        <location filename="../coincontroldialog.cpp" line="+0"/>
+        <source>no</source>
+        <translation>no</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="+17"/>
+        <location line="+5"/>
+        <source>This means a fee of at least %1 per kB is required.</source>
+        <translation>This means a fee of at least %1 per kB is required.</translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>Can vary +/- 1 byte per input.</source>
+        <translation>Can vary +/- 1 byte per input.</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Transactions with higher priority are more likely to get included into a block.</source>
+        <translation>Transactions with higher priority are more likely to get included into a block.</translation>
+    </message>
+    <message>
+        <location line="+60"/>
+        <location line="+64"/>
         <source>(no label)</source>
         <translation>(no label)</translation>
     </message>
@@ -1047,11 +1133,6 @@
         <location line="+1"/>
         <source>(change)</source>
         <translation>(change)</translation>
-    </message>
-    <message>
-        <location line="+26"/>
-        <source>n/a</source>
-        <translation>n/a</translation>
     </message>
 </context>
 <context>
@@ -1284,7 +1365,27 @@
         <translation>Choose data directory on startup (default: %u)</translation>
     </message>
     <message>
+        <location line="+4"/>
+        <source>Show splash screen on startup (default: %u)</source>
+        <translation>Show splash screen on startup (default: %u)</translation>
+    </message>
+    <message>
         <location line="+1"/>
+        <source>Reset all settings changes made over the GUI</source>
+        <translation>Reset all settings changes made over the GUI</translation>
+    </message>
+    <message>
+        <location line="+42"/>
+        <source>PrivateSend information</source>
+        <translation>PrivateSend information</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Vivo in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 VIVO, 0.1 VIVO, 1 VIVO and 10 VIVO -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://vivocoin.atlassian.net/wiki/display/DOC/PrivateSend&quot;&gt;https://vivocoin.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Vivo in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 VIVO, 0.1 VIVO, 1 VIVO and 10 VIVO -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://vivocoin.atlassian.net/wiki/display/DOC/PrivateSend&quot;&gt;https://vivocoin.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
+    </message>
+    <message>
+        <location line="-50"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
         <translation>Set language, for example &quot;de_DE&quot; (default: system locale)</translation>
     </message>
@@ -1297,26 +1398,6 @@
         <location line="+1"/>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>Set SSL root certificates for payment request (default: -system-)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: %u)</source>
-        <translation>Show splash screen on startup (default: %u)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Reset all settings changed in the GUI</source>
-        <translation>Reset all settings changed in the GUI</translation>
-    </message>
-    <message>
-        <location line="+42"/>
-        <source>PrivateSend information</source>
-        <translation>PrivateSend information</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Vivo in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 VIVO, 0.1 VIVO, 1 VIVO and 10 VIVO -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://vivopay.atlassian.net/wiki/display/DOC/PrivateSend&quot;&gt;https://vivopay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Vivo in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 VIVO, 0.1 VIVO, 1 VIVO and 10 VIVO -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://vivopay.atlassian.net/wiki/display/DOC/PrivateSend&quot;&gt;https://vivopay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
     </message>
 </context>
 <context>
@@ -1533,77 +1614,6 @@
     </message>
 </context>
 <context>
-    <name>ModalOverlay</name>
-    <message>
-        <location filename="../forms/modaloverlay.ui" line="+14"/>
-        <source>Form</source>
-        <translation>Form</translation>
-    </message>
-    <message>
-        <location line="+117"/>
-        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Vivo network, as detailed below.</source>
-        <translation>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Vivo network, as detailed below.</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Attempting to spend Vivo that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Attempting to spend Vivo that are affected by not-yet-displayed transactions will not be accepted by the network.</translation>
-    </message>
-    <message>
-        <location line="+63"/>
-        <source>Number of blocks left</source>
-        <translation>Number of blocks left</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <location line="+26"/>
-        <location filename="../modaloverlay.cpp" line="+141"/>
-        <source>Unknown...</source>
-        <translation>Unknown...</translation>
-    </message>
-    <message>
-        <location line="-13"/>
-        <source>Last block time</source>
-        <translation>Last block time</translation>
-    </message>
-    <message>
-        <location line="+26"/>
-        <source>Progress</source>
-        <translation>Progress</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>~</source>
-        <translation>~</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Progress increase per hour</source>
-        <translation>Progress increase per hour</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <location line="+20"/>
-        <source>calculating...</source>
-        <translation>calculating...</translation>
-    </message>
-    <message>
-        <location line="-7"/>
-        <source>Estimated time left until synced</source>
-        <translation>Estimated time left until synced</translation>
-    </message>
-    <message>
-        <location line="+37"/>
-        <source>Hide</source>
-        <translation>Hide</translation>
-    </message>
-    <message>
-        <location filename="../modaloverlay.cpp" line="-1"/>
-        <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>Unknown. Syncing Headers (%1)...</translation>
-    </message>
-</context>
-<context>
     <name>OpenURIDialog</name>
     <message>
         <location filename="../forms/openuridialog.ui" line="+14"/>
@@ -1764,7 +1774,7 @@
         <translation>&amp;Connect through SOCKS5 proxy (default proxy):</translation>
     </message>
     <message>
-        <location line="+315"/>
+        <location line="+305"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
         <translation>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</translation>
     </message>
@@ -1780,7 +1790,7 @@
         <translation>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</translation>
     </message>
     <message>
-        <location line="-653"/>
+        <location line="-643"/>
         <source>Expert</source>
         <translation>Expert</translation>
     </message>
@@ -1882,16 +1892,6 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>&amp;Hide the icon from the system tray.</source>
-        <translation>&amp;Hide the icon from the system tray.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Hide tray icon</source>
-        <translation>Hide tray icon</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>Show only a tray icon after minimizing the window.</source>
         <translation>Show only a tray icon after minimizing the window.</translation>
     </message>
@@ -1983,23 +1983,23 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>none</translation>
     </message>
     <message>
-        <location line="+84"/>
+        <location line="+83"/>
         <source>Confirm options reset</source>
         <translation>Confirm options reset</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+45"/>
+        <location line="+32"/>
         <source>Client restart required to activate changes.</source>
         <translation>Client restart required to activate changes.</translation>
     </message>
     <message>
-        <location line="-45"/>
+        <location line="-32"/>
         <source>Client will be shut down. Do you want to proceed?</source>
         <translation>Client will be shut down. Do you want to proceed?</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="+36"/>
         <source>This change would require a client restart.</source>
         <translation>This change would require a client restart.</translation>
     </message>
@@ -2017,7 +2017,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Form</translation>
     </message>
     <message>
-        <location line="+53"/>
+        <location line="+50"/>
         <location line="+355"/>
         <location line="+258"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Vivo network after a connection is established, but this process has not completed yet.</source>
@@ -2100,7 +2100,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
     </message>
     <message>
         <location line="+35"/>
-        <location filename="../overviewpage.cpp" line="+501"/>
+        <location filename="../overviewpage.cpp" line="+497"/>
         <location line="+12"/>
         <location line="+8"/>
         <location line="+61"/>
@@ -2201,91 +2201,14 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Reset</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="-471"/>
+        <location filename="../overviewpage.cpp" line="-466"/>
         <location line="+1"/>
         <location line="+1"/>
         <source>out of sync</source>
         <translation>out of sync</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Automatic backups are disabled, no mixing available!</source>
-        <translation>Automatic backups are disabled, no mixing available!</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <location line="+308"/>
-        <location line="+155"/>
-        <source>Start Mixing</source>
-        <translation>Start Mixing</translation>
-    </message>
-    <message>
-        <location line="-461"/>
-        <location line="+464"/>
-        <source>Stop Mixing</source>
-        <translation>Stop Mixing</translation>
-    </message>
-    <message>
-        <location line="-295"/>
-        <location line="+6"/>
-        <source>No inputs detected</source>
-        <translation>No inputs detected</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-2"/>
-        <location line="+20"/>
-        <location line="+10"/>
-        <source>%n Rounds</source>
-        <translation>
-            <numerusform>%n Round</numerusform>
-            <numerusform>%n Rounds</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="-13"/>
-        <source>Found enough compatible inputs to anonymize %1</source>
-        <translation>Found enough compatible inputs to anonymize %1</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Not enough compatible inputs to anonymize &lt;span style=&apos;color:red;&apos;&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style=&apos;color:red;&apos;&gt;%2&lt;/span&gt; instead</source>
-        <translation>Not enough compatible inputs to anonymize &lt;span style=&apos;color:red;&apos;&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style=&apos;color:red;&apos;&gt;%2&lt;/span&gt; instead</translation>
-    </message>
-    <message>
-        <location line="+58"/>
-        <source>Overall progress</source>
-        <translation>Overall progress</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Denominated</source>
-        <translation>Denominated</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Mixed</source>
-        <translation>Mixed</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Anonymized</source>
-        <translation>Anonymized</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+1"/>
-        <source>Denominated inputs have %5 of %n rounds on average</source>
-        <translation>
-            <numerusform>Denominated inputs have %5 of %n round on average</numerusform>
-            <numerusform>Denominated inputs have %5 of %n rounds on average</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+35"/>
-        <source>keys left: %1</source>
-        <translation>keys left: %1</translation>
-    </message>
-    <message>
-        <location line="+15"/>
+        <location line="+325"/>
         <location line="+48"/>
         <location line="+140"/>
         <location line="+1"/>
@@ -2295,7 +2218,78 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Disabled</translation>
     </message>
     <message>
-        <location line="-180"/>
+        <location line="-332"/>
+        <location line="+6"/>
+        <source>No inputs detected</source>
+        <translation>No inputs detected</translation>
+    </message>
+    <message numerus="yes">
+        <location line="-2"/>
+        <location line="+32"/>
+        <location line="+10"/>
+        <source>%n Rounds</source>
+        <translation><numerusform>%n Round</numerusform><numerusform>%n Rounds</numerusform></translation>
+    </message>
+    <message>
+        <location line="-7"/>
+        <source>Not enough compatible inputs to anonymize &lt;span style=&apos;color:red;&apos;&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style=&apos;color:red;&apos;&gt;%2&lt;/span&gt; instead</source>
+        <translation>Not enough compatible inputs to anonymize &lt;span style=&apos;color:red;&apos;&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style=&apos;color:red;&apos;&gt;%2&lt;/span&gt; instead</translation>
+    </message>
+    <message>
+        <location line="+46"/>
+        <source>Overall progress</source>
+        <translation>Overall progress</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Denominated</source>
+        <translation>Denominated</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Anonymized</source>
+        <translation>Anonymized</translation>
+    </message>
+    <message numerus="yes">
+        <location line="+1"/>
+        <source>Denominated inputs have %5 of %n rounds on average</source>
+        <translation><numerusform>Denominated inputs have %5 of %n rounds on average</numerusform><numerusform>Denominated inputs have %5 of %n rounds on average</numerusform></translation>
+    </message>
+    <message>
+        <location line="-56"/>
+        <source>Found enough compatible inputs to anonymize %1</source>
+        <translation>Found enough compatible inputs to anonymize %1</translation>
+    </message>
+    <message>
+        <location line="-203"/>
+        <source>Automatic backups are disabled, no mixing available!</source>
+        <translation>Automatic backups are disabled, no mixing available!</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <location line="+303"/>
+        <location line="+155"/>
+        <source>Start Mixing</source>
+        <translation>Start Mixing</translation>
+    </message>
+    <message>
+        <location line="-456"/>
+        <location line="+459"/>
+        <source>Stop Mixing</source>
+        <translation>Stop Mixing</translation>
+    </message>
+    <message>
+        <location line="-208"/>
+        <source>Mixed</source>
+        <translation>Mixed</translation>
+    </message>
+    <message>
+        <location line="+37"/>
+        <source>keys left: %1</source>
+        <translation>keys left: %1</translation>
+    </message>
+    <message>
+        <location line="+28"/>
         <source>Very low number of keys left since last automatic backup!</source>
         <translation>Very low number of keys left since last automatic backup!</translation>
     </message>
@@ -2349,12 +2343,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
 </translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>N/A</source>
-        <translation>N/A</translation>
-    </message>
-    <message>
-        <location line="+16"/>
+        <location line="+24"/>
         <source>PrivateSend was successfully reset.</source>
         <translation>PrivateSend was successfully reset.</translation>
     </message>
@@ -2372,6 +2361,11 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <location line="+14"/>
         <source>Wallet is locked and user declined to unlock. Disabling PrivateSend.</source>
         <translation>Wallet is locked and user declined to unlock. Disabling PrivateSend.</translation>
+    </message>
+    <message>
+        <location line="-54"/>
+        <source>N/A</source>
+        <translation>N/A</translation>
     </message>
 </context>
 <context>
@@ -2404,7 +2398,17 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Payment request fetch URL is invalid: %1</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+34"/>
+        <source>Payment request file handling</source>
+        <translation>Payment request file handling</translation>
+    </message>
+    <message>
+        <location line="+71"/>
+        <source>Payment request expired.</source>
+        <translation>Payment request expired.</translation>
+    </message>
+    <message>
+        <location line="-92"/>
         <source>Invalid payment address %1</source>
         <translation>Invalid payment address %1</translation>
     </message>
@@ -2414,12 +2418,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>URI cannot be parsed! This can be caused by an invalid Vivo address or malformed URI parameters.</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Payment request file handling</source>
-        <translation>Payment request file handling</translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location line="+14"/>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
         <translation>Payment request file cannot be read! This can be caused by an invalid payment request file.</translation>
     </message>
@@ -2439,12 +2438,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Payment request network doesn&apos;t match client network.</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>Payment request expired.</source>
-        <translation>Payment request expired.</translation>
-    </message>
-    <message>
-        <location line="+6"/>
+        <location line="+15"/>
         <source>Payment request is not initialized.</source>
         <translation>Payment request is not initialized.</translation>
     </message>
@@ -2504,72 +2498,34 @@ https://www.transifex.com/projects/p/vivo/</translation>
     <name>PeerTableModel</name>
     <message>
         <location filename="../peertablemodel.cpp" line="+117"/>
-        <source>NodeId</source>
-        <translation>NodeId</translation>
+        <source>User Agent</source>
+        <translation>User Agent</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Ping Time</source>
+        <translation>Ping Time</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Node/Service</source>
         <translation>Node/Service</translation>
     </message>
-    <message>
-        <location line="+0"/>
-        <source>User Agent</source>
-        <translation>User Agent</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Ping</source>
-        <translation>Ping</translation>
-    </message>
 </context>
 <context>
     <name>QObject</name>
-    <message>
-        <location filename="../vivo.cpp" line="+86"/>
-        <location line="+7"/>
-        <location line="+15"/>
-        <location line="+19"/>
-        <source>Vivo Core</source>
-        <translation>Vivo Core</translation>
-    </message>
-    <message>
-        <location line="-40"/>
-        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
-        <translation>Error: Specified data directory &quot;%1&quot; does not exist.</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation>Error: Cannot parse configuration file: %1. Only use key=value syntax.</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Error: %1</source>
-        <translation>Error: %1</translation>
-    </message>
-    <message>
-        <location line="+20"/>
-        <source>Error reading masternode configuration file: %1</source>
-        <translation>Error reading masternode configuration file: %1</translation>
-    </message>
-    <message>
-        <location line="+48"/>
-        <source>Vivo Core didn&apos;t yet exit safely...</source>
-        <translation>Vivo Core didn&apos;t yet exit safely...</translation>
-    </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="+233"/>
         <source>Amount</source>
         <translation>Amount</translation>
     </message>
     <message>
-        <location filename="../guiutil.cpp" line="+120"/>
+        <location filename="../guiutil.cpp" line="+119"/>
         <source>Enter a Vivo address (e.g. %1)</source>
         <translation>Enter a Vivo address (e.g. %1)</translation>
     </message>
     <message>
-        <location line="+855"/>
+        <location line="+857"/>
         <source>%1 d</source>
         <translation>%1 d</translation>
     </message>
@@ -2603,65 +2559,6 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <location line="+0"/>
         <source>%1 ms</source>
         <translation>%1 ms</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+18"/>
-        <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n second</numerusform>
-            <numerusform>%n seconds</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minute</numerusform>
-            <numerusform>%n minutes</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n hour(s)</source>
-        <translation>
-            <numerusform>%n hour</numerusform>
-            <numerusform>%n hours</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n day(s)</source>
-        <translation>
-            <numerusform>%n day</numerusform>
-            <numerusform>%n days</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <location line="+6"/>
-        <source>%n week(s)</source>
-        <translation>
-            <numerusform>%n week</numerusform>
-            <numerusform>%n weeks</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location line="+0"/>
-        <source>%n year(s)</source>
-        <translation>
-            <numerusform>%n year</numerusform>
-            <numerusform>%n years</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>%1 and %2</source>
-        <translation>%1 and %2</translation>
-    </message>
-    <message>
-        <location filename="../modaloverlay.cpp" line="-29"/>
-        <source>unknown</source>
-        <translation>unknown</translation>
     </message>
 </context>
 <context>
@@ -2705,12 +2602,12 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>General</translation>
     </message>
     <message>
-        <location line="+167"/>
+        <location line="+164"/>
         <source>Name</source>
         <translation>Name</translation>
     </message>
     <message>
-        <location line="-160"/>
+        <location line="-157"/>
         <source>Client name</source>
         <translation>Client name</translation>
     </message>
@@ -2720,7 +2617,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <location line="+26"/>
         <location line="+26"/>
         <location line="+23"/>
-        <location line="+26"/>
+        <location line="+23"/>
         <location line="+36"/>
         <location line="+23"/>
         <location line="+20"/>
@@ -2728,7 +2625,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <location line="+23"/>
         <location line="+36"/>
         <location line="+23"/>
-        <location line="+659"/>
+        <location line="+536"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -2745,12 +2642,11 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <location line="+23"/>
         <location line="+26"/>
         <location line="+23"/>
-        <location line="+23"/>
         <source>N/A</source>
         <translation>N/A</translation>
     </message>
     <message>
-        <location line="-1195"/>
+        <location line="-1049"/>
         <source>Number of connections</source>
         <translation>Number of connections</translation>
     </message>
@@ -2780,12 +2676,17 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Debug log file</translation>
     </message>
     <message>
-        <location line="-123"/>
+        <location line="-255"/>
+        <source>Build date</source>
+        <translation>Build date</translation>
+    </message>
+    <message>
+        <location line="+132"/>
         <source>Current number of blocks</source>
         <translation>Current number of blocks</translation>
     </message>
     <message>
-        <location line="-210"/>
+        <location line="-207"/>
         <source>Client version</source>
         <translation>Client version</translation>
     </message>
@@ -2795,7 +2696,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Using BerkeleyDB version</translation>
     </message>
     <message>
-        <location line="+154"/>
+        <location line="+151"/>
         <source>Block chain</source>
         <translation>Block chain</translation>
     </message>
@@ -2830,12 +2731,12 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>&amp;Console</translation>
     </message>
     <message>
-        <location line="+100"/>
+        <location line="+49"/>
         <source>Clear console</source>
         <translation>Clear console</translation>
     </message>
     <message>
-        <location line="+95"/>
+        <location line="+23"/>
         <source>&amp;Network Traffic</source>
         <translation>&amp;Network Traffic</translation>
     </message>
@@ -2873,8 +2774,8 @@ https://www.transifex.com/projects/p/vivo/</translation>
     </message>
     <message>
         <location line="+59"/>
-        <location filename="../rpcconsole.cpp" line="+309"/>
-        <location line="+756"/>
+        <location filename="../rpcconsole.cpp" line="+302"/>
+        <location line="+672"/>
         <source>Select a peer to view detailed information.</source>
         <translation>Select a peer to view detailed information.</translation>
     </message>
@@ -2909,33 +2810,18 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Synced Blocks</translation>
     </message>
     <message>
-        <location line="+534"/>
+        <location line="+511"/>
         <source>Wallet Path</source>
         <translation>Wallet Path</translation>
     </message>
     <message>
-        <location line="-1623"/>
-        <location line="+997"/>
+        <location line="-1474"/>
+        <location line="+871"/>
         <source>User Agent</source>
         <translation>User Agent</translation>
     </message>
     <message>
-        <location line="-945"/>
-        <source>Datadir</source>
-        <translation>Datadir</translation>
-    </message>
-    <message>
-        <location line="+333"/>
-        <source>Decrease font size</source>
-        <translation>Decrease font size</translation>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>Increase font size</source>
-        <translation>Increase font size</translation>
-    </message>
-    <message>
-        <location line="+606"/>
+        <location line="+23"/>
         <source>Services</source>
         <translation>Services</translation>
     </message>
@@ -2973,11 +2859,6 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <location line="+3"/>
         <source>Ping Wait</source>
         <translation>Ping Wait</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Min Ping</source>
-        <translation>Min Ping</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -3060,17 +2941,27 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>-reindex: Rebuild block chain index from current blk000??.dat files.</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="-661"/>
-        <source>&amp;Disconnect</source>
-        <translation>&amp;Disconnect</translation>
+        <location filename="../rpcconsole.cpp" line="-348"/>
+        <source>In:</source>
+        <translation>In:</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Out:</source>
+        <translation>Out:</translation>
+    </message>
+    <message>
+        <location line="-234"/>
+        <source>&amp;Disconnect Node</source>
+        <translation>&amp;Disconnect Node</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+1"/>
         <location line="+1"/>
         <location line="+1"/>
-        <source>Ban for</source>
-        <translation>Ban for</translation>
+        <source>Ban Node for</source>
+        <translation>Ban Node for</translation>
     </message>
     <message>
         <location line="-3"/>
@@ -3093,12 +2984,12 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>1 &amp;year</translation>
     </message>
     <message>
-        <location line="+48"/>
-        <source>&amp;Unban</source>
-        <translation>&amp;Unban</translation>
+        <location line="+46"/>
+        <source>&amp;Unban Node</source>
+        <translation>&amp;Unban Node</translation>
     </message>
     <message>
-        <location line="+188"/>
+        <location line="+148"/>
         <source>Welcome to the Vivo Core RPC console.</source>
         <translation>Welcome to the Vivo Core RPC console.</translation>
     </message>
@@ -3113,22 +3004,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</translation>
     </message>
     <message>
-        <location line="+30"/>
-        <source>In:</source>
-        <translation>In:</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Out:</source>
-        <translation>Out:</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Network activity disabled</source>
-        <translation>Network activity disabled</translation>
-    </message>
-    <message>
-        <location line="+126"/>
+        <location line="+149"/>
         <source>%1 B</source>
         <translation>%1 B</translation>
     </message>
@@ -3148,7 +3024,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>%1 GB</translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+88"/>
         <source>(node id: %1)</source>
         <translation>(node id: %1)</translation>
     </message>
@@ -3164,7 +3040,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>never</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+9"/>
         <source>Inbound</source>
         <translation>Inbound</translation>
     </message>
@@ -3290,12 +3166,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Remove</translation>
     </message>
     <message>
-        <location filename="../receivecoinsdialog.cpp" line="+48"/>
-        <source>Copy URI</source>
-        <translation>Copy URI</translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location filename="../receivecoinsdialog.cpp" line="+47"/>
         <source>Copy label</source>
         <translation>Copy label</translation>
     </message>
@@ -3368,19 +3239,10 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Message</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
+        <location line="+2"/>
         <source>InstantSend</source>
         <translation>InstantSend</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Yes</source>
-        <translation>Yes</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>No</source>
-        <translation>No</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -3411,7 +3273,12 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Message</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+99"/>
+        <source>Amount</source>
+        <translation>Amount</translation>
+    </message>
+    <message>
+        <location line="-59"/>
         <source>(no label)</source>
         <translation>(no label)</translation>
     </message>
@@ -3425,17 +3292,12 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <source>(no amount)</source>
         <translation>(no amount)</translation>
     </message>
-    <message>
-        <location line="+42"/>
-        <source>Amount</source>
-        <translation>Amount</translation>
-    </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+656"/>
+        <location filename="../sendcoinsdialog.cpp" line="+659"/>
         <source>Send Coins</source>
         <translation>Send Coins</translation>
     </message>
@@ -3475,17 +3337,32 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Amount:</translation>
     </message>
     <message>
-        <location line="+80"/>
+        <location line="+32"/>
+        <source>Priority:</source>
+        <translation>Priority:</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>medium</source>
+        <translation>medium</translation>
+    </message>
+    <message>
+        <location line="+35"/>
         <source>Fee:</source>
         <translation>Fee:</translation>
     </message>
     <message>
-        <location line="-48"/>
+        <location line="+32"/>
         <source>Dust:</source>
         <translation>Dust:</translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+13"/>
+        <source>no</source>
+        <translation>no</translation>
+    </message>
+    <message>
+        <location line="+35"/>
         <source>After Fee:</source>
         <translation>After Fee:</translation>
     </message>
@@ -3641,7 +3518,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Balance:</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-562"/>
+        <location filename="../sendcoinsdialog.cpp" line="-565"/>
         <source>Copy quantity</source>
         <translation>Copy quantity</translation>
     </message>
@@ -3667,6 +3544,11 @@ https://www.transifex.com/projects/p/vivo/</translation>
     </message>
     <message>
         <location line="+1"/>
+        <source>Copy priority</source>
+        <translation>Copy priority</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Copy dust</source>
         <translation>Copy dust</translation>
     </message>
@@ -3676,7 +3558,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Copy change</translation>
     </message>
     <message>
-        <location line="+153"/>
+        <location line="+155"/>
         <location line="+6"/>
         <location line="+9"/>
         <source>using</source>
@@ -3704,7 +3586,27 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>and InstantSend</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+359"/>
+        <source>Duplicate address found: addresses should only be used once each.</source>
+        <translation>Duplicate address found: addresses should only be used once each.</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>A fee higher than %1 is considered an absurdly high fee.</source>
+        <translation>A fee higher than %1 is considered an absurdly high fee.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Payment request expired.</source>
+        <translation>Payment request expired.</translation>
+    </message>
+    <message>
+        <location line="+91"/>
+        <source>Pay only the required fee of %1</source>
+        <translation>Pay only the required fee of %1</translation>
+    </message>
+    <message>
+        <location line="-397"/>
         <location line="+5"/>
         <location line="+5"/>
         <location line="+4"/>
@@ -3727,17 +3629,22 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+20"/>
+        <source>Confirm send coins</source>
+        <translation>Confirm send coins</translation>
+    </message>
+    <message numerus="yes">
+        <location line="+354"/>
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation><numerusform>Estimated to begin confirmation within %n block.</numerusform><numerusform>Estimated to begin confirmation within %n blocks.</numerusform></translation>
+    </message>
+    <message>
+        <location line="-357"/>
         <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
         <translation>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Confirm send coins</source>
-        <translation>Confirm send coins</translation>
-    </message>
-    <message>
-        <location line="+212"/>
+        <location line="+215"/>
         <source>The recipient address is not valid. Please recheck.</source>
         <translation>The recipient address is not valid. Please recheck.</translation>
     </message>
@@ -3757,12 +3664,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>The total exceeds your balance when the %1 transaction fee is included.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>Duplicate address found: addresses should only be used once each.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Transaction creation failed!</source>
         <translation>Transaction creation failed!</translation>
     </message>
@@ -3772,30 +3674,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation>A fee higher than %1 is considered an absurdly high fee.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Payment request expired.</source>
-        <translation>Payment request expired.</translation>
-    </message>
-    <message>
-        <location line="+94"/>
-        <source>Pay only the required fee of %1</source>
-        <translation>Pay only the required fee of %1</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+25"/>
-        <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation>
-            <numerusform>Estimated to begin confirmation within %n block.</numerusform>
-            <numerusform>Estimated to begin confirmation within %n blocks.</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+100"/>
+        <location line="+229"/>
         <source>Warning: Invalid Vivo address</source>
         <translation>Warning: Invalid Vivo address</translation>
     </message>
@@ -3922,7 +3801,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <location filename="../utilitydialog.cpp" line="+71"/>
+        <location filename="../utilitydialog.cpp" line="+119"/>
         <source>Vivo Core is shutting down...</source>
         <translation>Vivo Core is shutting down...</translation>
     </message>
@@ -4117,11 +3996,6 @@ https://www.transifex.com/projects/p/vivo/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <location filename="../networkstyle.cpp" line="+21"/>
-        <source>[testnet]</source>
-        <translation>[testnet]</translation>
-    </message>
-    <message>
         <location filename="../splashscreen.cpp" line="+45"/>
         <source>Vivo Core</source>
         <translation>Vivo Core</translation>
@@ -4141,11 +4015,16 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <source>The Vivo Core developers</source>
         <translation>The Vivo Core developers</translation>
     </message>
+    <message>
+        <location filename="../networkstyle.cpp" line="+21"/>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
 </context>
 <context>
     <name>TrafficGraphWidget</name>
     <message>
-        <location filename="../trafficgraphwidget.cpp" line="+92"/>
+        <location filename="../trafficgraphwidget.cpp" line="+79"/>
         <source>KB/s</source>
         <translation>KB/s</translation>
     </message>
@@ -4155,10 +4034,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
     <message numerus="yes">
         <location filename="../transactiondesc.cpp" line="+33"/>
         <source>Open for %n more block(s)</source>
-        <translation>
-            <numerusform>Open for %n more block</numerusform>
-            <numerusform>Open for %n more blocks</numerusform>
-        </translation>
+        <translation><numerusform>Open for %n more block</numerusform><numerusform>Open for %n more blocks</numerusform></translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4174,26 +4050,6 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <location line="+6"/>
         <source>%1/offline</source>
         <translation>%1/offline</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>0/unconfirmed, %1</source>
-        <translation>0/unconfirmed, %1</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>in memory pool</source>
-        <translation>in memory pool</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>not in memory pool</source>
-        <translation>not in memory pool</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>abandoned</source>
-        <translation>abandoned</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4233,10 +4089,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
     <message numerus="yes">
         <location line="+2"/>
         <source>, broadcast through %n node(s)</source>
-        <translation>
-            <numerusform>, broadcast through %n node</numerusform>
-            <numerusform>, broadcast through %n nodes</numerusform>
-        </translation>
+        <translation><numerusform>, broadcast through %n node</numerusform><numerusform>, broadcast through %n nodes</numerusform></translation>
     </message>
     <message>
         <location line="+4"/>
@@ -4293,17 +4146,14 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <location line="+12"/>
         <location line="+53"/>
         <location line="+26"/>
-        <location line="+54"/>
+        <location line="+53"/>
         <source>Credit</source>
         <translation>Credit</translation>
     </message>
     <message numerus="yes">
-        <location line="-143"/>
+        <location line="-142"/>
         <source>matures in %n more block(s)</source>
-        <translation>
-            <numerusform>matures in %n more block</numerusform>
-            <numerusform>matures in %n more blocks</numerusform>
-        </translation>
+        <translation><numerusform>matures in %n more block</numerusform><numerusform>matures in %n more blocks</numerusform></translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4313,12 +4163,12 @@ https://www.transifex.com/projects/p/vivo/</translation>
     <message>
         <location line="+59"/>
         <location line="+25"/>
-        <location line="+54"/>
+        <location line="+53"/>
         <source>Debit</source>
         <translation>Debit</translation>
     </message>
     <message>
-        <location line="-69"/>
+        <location line="-68"/>
         <source>Total debit</source>
         <translation>Total debit</translation>
     </message>
@@ -4339,12 +4189,12 @@ https://www.transifex.com/projects/p/vivo/</translation>
     </message>
     <message>
         <location line="+6"/>
-        <location line="+10"/>
+        <location line="+9"/>
         <source>Message</source>
         <translation>Message</translation>
     </message>
     <message>
-        <location line="-8"/>
+        <location line="-7"/>
         <source>Comment</source>
         <translation>Comment</translation>
     </message>
@@ -4352,11 +4202,6 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <location line="+2"/>
         <source>Transaction ID</source>
         <translation>Transaction ID</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transaction total size</source>
-        <translation>Transaction total size</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -4434,10 +4279,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
     <message numerus="yes">
         <location line="+58"/>
         <source>Open for %n more block(s)</source>
-        <translation>
-            <numerusform>Open for %n more block</numerusform>
-            <numerusform>Open for %n more blocks</numerusform>
-        </translation>
+        <translation><numerusform>Open for %n more block</numerusform><numerusform>Open for %n more blocks</numerusform></translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4453,11 +4295,6 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <location line="+3"/>
         <source>Unconfirmed</source>
         <translation>Unconfirmed</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Abandoned</source>
-        <translation>Abandoned</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4505,22 +4342,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Received via PrivateSend</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Sent to</source>
-        <translation>Sent to</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Payment to yourself</source>
-        <translation>Payment to yourself</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Mined</source>
-        <translation>Mined</translation>
-    </message>
-    <message>
-        <location line="+3"/>
+        <location line="+10"/>
         <source>PrivateSend Denominate</source>
         <translation>PrivateSend Denominate</translation>
     </message>
@@ -4545,7 +4367,27 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>PrivateSend</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+280"/>
+        <source>User-defined intent/purpose of the transaction.</source>
+        <translation>User-defined intent/purpose of the transaction.</translation>
+    </message>
+    <message>
+        <location line="-295"/>
+        <source>Sent to</source>
+        <translation>Sent to</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Payment to yourself</source>
+        <translation>Payment to yourself</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Mined</source>
+        <translation>Mined</translation>
+    </message>
+    <message>
+        <location line="+42"/>
         <source>watch-only</source>
         <translation>watch-only</translation>
     </message>
@@ -4555,12 +4397,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>(n/a)</translation>
     </message>
     <message>
-        <location line="+219"/>
-        <source>(no label)</source>
-        <translation>(no label)</translation>
-    </message>
-    <message>
-        <location line="+39"/>
+        <location line="+224"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
         <translation>Transaction status. Hover over this field to show number of confirmations.</translation>
     </message>
@@ -4580,12 +4417,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Whether or not a watch-only address is involved in this transaction.</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>User-defined intent/purpose of the transaction.</source>
-        <translation>User-defined intent/purpose of the transaction.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Amount removed from or added to balance.</source>
         <translation>Amount removed from or added to balance.</translation>
     </message>
@@ -4695,11 +4527,6 @@ https://www.transifex.com/projects/p/vivo/</translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Abandon transaction</source>
-        <translation>Abandon transaction</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Copy address</source>
         <translation>Copy address</translation>
     </message>
@@ -4725,11 +4552,6 @@ https://www.transifex.com/projects/p/vivo/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copy full transaction details</source>
-        <translation>Copy full transaction details</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Edit label</source>
         <translation>Edit label</translation>
     </message>
@@ -4739,7 +4561,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Show transaction details</translation>
     </message>
     <message>
-        <location line="+211"/>
+        <location line="+206"/>
         <source>Export Transaction History</source>
         <translation>Export Transaction History</translation>
     </message>
@@ -4804,7 +4626,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>The transaction history was successfully saved to %1.</translation>
     </message>
     <message>
-        <location line="+166"/>
+        <location line="+136"/>
         <source>Range:</source>
         <translation>Range:</translation>
     </message>
@@ -4817,7 +4639,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+138"/>
+        <location filename="../bitcoingui.cpp" line="+115"/>
         <source>Unit to show amounts in. Click to select another unit.</source>
         <translation>Unit to show amounts in. Click to select another unit.</translation>
     </message>
@@ -4833,7 +4655,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+310"/>
+        <location filename="../walletmodel.cpp" line="+308"/>
         <location line="+12"/>
         <location line="+5"/>
         <location line="+11"/>
@@ -4870,7 +4692,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Selected amount:</translation>
     </message>
     <message>
-        <location line="+231"/>
+        <location line="+224"/>
         <source>Backup Wallet</source>
         <translation>Backup Wallet</translation>
     </message>
@@ -4913,7 +4735,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Cannot obtain a lock on data directory %s. Vivo Core is probably already running.</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+32"/>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
         <translation>Error: Listening for incoming connections failed (listen returned error %s)</translation>
     </message>
@@ -4933,7 +4755,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
     </message>
     <message>
-        <location line="+64"/>
+        <location line="+57"/>
         <source>Name to construct url for KeePass entry that stores the wallet passphrase</source>
         <translation>Name to construct url for KeePass entry that stores the wallet passphrase</translation>
     </message>
@@ -4963,7 +4785,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Unable to bind to %s on this computer. Vivo Core is probably already running.</translation>
     </message>
     <message>
-        <location line="+45"/>
+        <location line="+39"/>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</translation>
     </message>
@@ -4973,7 +4795,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+3"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
         <translation>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</translation>
     </message>
@@ -4983,7 +4805,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="+16"/>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Accept command line and JSON-RPC commands</translation>
     </message>
@@ -4993,7 +4815,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Accept connections from outside (default: 1 if no -proxy or -connect)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Add a node to connect to and attempt to keep the connection open</translation>
     </message>
@@ -5013,7 +4835,12 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Block creation options:</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+1"/>
+        <source>Can&apos;t denominate: no compatible inputs left.</source>
+        <translation>Can&apos;t denominate: no compatible inputs left.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Cannot downgrade wallet</source>
         <translation>Cannot downgrade wallet</translation>
     </message>
@@ -5033,7 +4860,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Cannot write default address</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Collateral not valid.</source>
         <translation>Collateral not valid.</translation>
     </message>
@@ -5083,7 +4910,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Entries are full.</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
         <source>Error initializing block database</source>
         <translation>Error initializing block database</translation>
     </message>
@@ -5093,7 +4920,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Error initializing wallet database environment %s!</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Error loading block database</source>
         <translation>Error loading block database</translation>
     </message>
@@ -5133,7 +4960,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Failed to listen on any port. Use -listen=0 if you want this.</translation>
     </message>
     <message>
-        <location line="-358"/>
+        <location line="-336"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
@@ -5193,12 +5020,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Error loading %s: You can&apos;t enable HD on a already existing non-HD wallet</source>
-        <translation>Error loading %s: You can&apos;t enable HD on a already existing non-HD wallet</translation>
-    </message>
-    <message>
-        <location line="+32"/>
+        <location line="+44"/>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
         <translation>Found unconfirmed denominated outputs, will wait till they confirm to continue.</translation>
     </message>
@@ -5213,12 +5035,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</source>
-        <translation>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</translation>
-    </message>
-    <message>
-        <location line="+10"/>
+        <location line="+9"/>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
         <translation>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</translation>
     </message>
@@ -5229,11 +5046,6 @@ https://www.transifex.com/projects/p/vivo/</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Make sure to encrypt your wallet and delete all non-encrypted backups after you verified that wallet works!</source>
-        <translation>Make sure to encrypt your wallet and delete all non-encrypted backups after you verified that wallet works!</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
         <translation>Maximum size of data in data carrier transactions we relay and mine (default: %u)</translation>
     </message>
@@ -5269,31 +5081,11 @@ https://www.transifex.com/projects/p/vivo/</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Use hierarchical deterministic key generation (HD) after bip39/bip44. Only has effect during wallet creation/first start</source>
-        <translation>Use hierarchical deterministic key generation (HD) after bip39/bip44. Only has effect during wallet creation/first start</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
         <translation>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>User defined mnemonic for HD wallet (bip39). Only has effect during wallet creation/first start (default: randomly generated)</source>
-        <translation>User defined mnemonic for HD wallet (bip39). Only has effect during wallet creation/first start (default: randomly generated)</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>User defined seed for HD wallet (should be in hex). Only has effect during wallet creation/first start (default: randomly generated)</source>
-        <translation>User defined seed for HD wallet (should be in hex). Only has effect during wallet creation/first start (default: randomly generated)</translation>
-    </message>
-    <message>
-        <location line="+21"/>
-        <source>Warning: incorrect parameter -walletbackupsdir, path must exist! Using default path.</source>
-        <translation>Warning: incorrect parameter -walletbackupsdir, path must exist! Using default path.</translation>
-    </message>
-    <message>
-        <location line="+7"/>
+        <location line="+31"/>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
         <translation>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</translation>
     </message>
@@ -5303,12 +5095,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
-        <translation>You need to rebuild the database using -reindex-chainstate to change -txindex</translation>
-    </message>
-    <message>
-        <location line="+7"/>
+        <location line="+14"/>
         <source>(default: %s)</source>
         <translation>(default: %s)</translation>
     </message>
@@ -5318,27 +5105,17 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Accept public REST requests (default: %u)</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+5"/>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
         <translation>Always query for peer addresses via DNS lookup (default: %u)</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Can&apos;t mix: no compatible inputs found!</source>
-        <translation>Can&apos;t mix: no compatible inputs found!</translation>
-    </message>
-    <message>
-        <location line="+4"/>
+        <location line="+12"/>
         <source>Cannot resolve -whitebind address: &apos;%s&apos;</source>
         <translation>Cannot resolve -whitebind address: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Chain selection options:</source>
-        <translation>Chain selection options:</translation>
-    </message>
-    <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>Connect through SOCKS5 proxy</source>
         <translation>Connect through SOCKS5 proxy</translation>
     </message>
@@ -5364,46 +5141,16 @@ https://www.transifex.com/projects/p/vivo/</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Entry exceeds maximum size.</source>
-        <translation>Entry exceeds maximum size.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Error connecting to Masternode.</source>
         <translation>Error connecting to Masternode.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Error loading %s: You can&apos;t disable HD on a already existing HD wallet</source>
-        <translation>Error loading %s: You can&apos;t disable HD on a already existing HD wallet</translation>
-    </message>
-    <message>
-        <location line="+4"/>
+        <location line="+6"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Vivo Core</source>
         <translation>Error loading wallet.dat: Wallet requires newer version of Vivo Core</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>Failed to load fulfilled requests cache from</source>
-        <translation>Failed to load fulfilled requests cache from</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to load governance cache from</source>
-        <translation>Failed to load governance cache from</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to load masternode cache from</source>
-        <translation>Failed to load masternode cache from</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to load masternode payments cache from</source>
-        <translation>Failed to load masternode payments cache from</translation>
-    </message>
-    <message>
-        <location line="+3"/>
+        <location line="+12"/>
         <source>Found enough users, signing ( waiting %s )</source>
         <translation>Found enough users, signing ( waiting %s )</translation>
     </message>
@@ -5503,12 +5250,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>Keypool ran out, please call keypoolrefill first</source>
-        <translation>Keypool ran out, please call keypoolrefill first</translation>
-    </message>
-    <message>
-        <location line="+4"/>
+        <location line="+13"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
         <translation>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</translation>
     </message>
@@ -5518,17 +5260,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Loading banlist...</source>
-        <translation>Loading banlist...</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Loading fulfilled requests cache...</source>
-        <translation>Loading fulfilled requests cache...</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>Loading masternode cache...</source>
         <translation>Loading masternode cache...</translation>
     </message>
@@ -5564,11 +5296,6 @@ https://www.transifex.com/projects/p/vivo/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Mnemonic passphrase is too long, must be at most 256 characters</source>
-        <translation>Mnemonic passphrase is too long, must be at most 256 characters</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Need to specify a port with -whitebind: &apos;%s&apos;</source>
         <translation>Need to specify a port with -whitebind: &apos;%s&apos;</translation>
     </message>
@@ -5583,7 +5310,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>No compatible Masternode found.</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+9"/>
         <source>Not in the Masternode list.</source>
         <translation>Not in the Masternode list.</translation>
     </message>
@@ -5603,17 +5330,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Prepend debug output with timestamp (default: %u)</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
-        <translation>Rebuild chain state and block index from the blk*.dat files on disk</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Rebuild chain state from the currently indexed blocks</source>
-        <translation>Rebuild chain state from the currently indexed blocks</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+19"/>
         <source>Send trace/debug info to debug.log file (default: %u)</source>
         <translation>Send trace/debug info to debug.log file (default: %u)</translation>
     </message>
@@ -5679,11 +5396,6 @@ https://www.transifex.com/projects/p/vivo/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Synchroning blockchain...</source>
-        <translation>Synchroning blockchain...</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Synchronization failed</source>
         <translation>Synchronization failed</translation>
     </message>
@@ -5696,6 +5408,11 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <location line="+4"/>
         <source>Synchronizing masternodes...</source>
         <translation>Synchronizing masternodes...</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Synchronizing sporks...</source>
+        <translation>Synchronizing sporks...</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -5764,16 +5481,16 @@ https://www.transifex.com/projects/p/vivo/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Use the test chain</source>
-        <translation>Use the test chain</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>User Agent comment (%s) contains unsafe characters.</source>
         <translation>User Agent comment (%s) contains unsafe characters.</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+2"/>
+        <source>Value more than PrivateSend pool maximum allows.</source>
+        <translation>Value more than PrivateSend pool maximum allows.</translation>
+    </message>
+    <message>
+        <location line="+6"/>
         <source>Wallet needed to be rewritten: restart Vivo Core to complete</source>
         <translation>Wallet needed to be rewritten: restart Vivo Core to complete</translation>
     </message>
@@ -5783,12 +5500,12 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Will retry...</translation>
     </message>
     <message>
-        <location line="-147"/>
+        <location line="-144"/>
         <source>Invalid masternodeprivkey. Please see documenation.</source>
         <translation>Invalid masternodeprivkey. Please see documenation.</translation>
     </message>
     <message>
-        <location line="-80"/>
+        <location line="-72"/>
         <source>Can&apos;t find random Masternode.</source>
         <translation>Can&apos;t find random Masternode.</translation>
     </message>
@@ -5798,12 +5515,12 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Can&apos;t mix while sync in progress.</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+15"/>
         <source>Could not parse masternode.conf</source>
         <translation>Could not parse masternode.conf</translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="+57"/>
         <source>Invalid netmask specified in -whitelist: &apos;%s&apos;</source>
         <translation>Invalid netmask specified in -whitelist: &apos;%s&apos;</translation>
     </message>
@@ -5838,7 +5555,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</translation>
     </message>
     <message>
-        <location line="-354"/>
+        <location line="-328"/>
         <source>Disable all Vivo specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
         <translation>Disable all Vivo specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</translation>
     </message>
@@ -5868,7 +5585,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Enable use of automated PrivateSend for funds stored in this wallet (0-1, default: %u)</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+3"/>
         <source>Error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>Error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</translation>
     </message>
@@ -5903,7 +5620,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+6"/>
         <source>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 VIVO.</source>
         <translation>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 VIVO.</translation>
     </message>
@@ -5933,7 +5650,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Maintain at most &lt;n&gt; connections to peers (temporary service connections excluded) (default: %u)</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+6"/>
         <source>Maximum total fees (in %s) to use in a single wallet transaction; setting this too low may abort large transactions (default: %s)</source>
         <translation>Maximum total fees (in %s) to use in a single wallet transaction; setting this too low may abort large transactions (default: %s)</translation>
     </message>
@@ -6038,12 +5755,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>User defined mnemonic passphrase for HD wallet (bip39). Only has effect during wallet creation/first start (default: empty string)</source>
-        <translation>User defined mnemonic passphrase for HD wallet (bip39). Only has effect during wallet creation/first start (default: empty string)</translation>
-    </message>
-    <message>
-        <location line="+6"/>
+        <location line="+5"/>
         <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. This option can be specified multiple times</source>
         <translation>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. This option can be specified multiple times</translation>
     </message>
@@ -6054,6 +5766,16 @@ https://www.transifex.com/projects/p/vivo/</translation>
     </message>
     <message>
         <location line="+2"/>
+        <source>WARNING: abnormally high number of blocks generated, %d blocks received in the last %d hours (%d expected)</source>
+        <translation>WARNING: abnormally high number of blocks generated, %d blocks received in the last %d hours (%d expected)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>WARNING: check your network connection, %d blocks received in the last %d hours (%d expected)</source>
+        <translation>WARNING: check your network connection, %d blocks received in the last %d hours (%d expected)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Wallet is locked, can&apos;t replenish keypool! Automatic backups and mixing are disabled, please unlock your wallet to replenish keypool.</source>
         <translation>Wallet is locked, can&apos;t replenish keypool! Automatic backups and mixing are disabled, please unlock your wallet to replenish keypool.</translation>
     </message>
@@ -6063,12 +5785,12 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Warning: Unknown block versions being mined! It&apos;s possible unknown rules are in effect</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location line="+19"/>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
         <translation>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+3"/>
         <source>masternodeaddr option is deprecated. Please use masternode.conf to manage your remote masternodes.</source>
         <translation>masternodeaddr option is deprecated. Please use masternode.conf to manage your remote masternodes.</translation>
     </message>
@@ -6103,7 +5825,12 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>&lt;category&gt; can be:</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+4"/>
+        <source>Activating best chain...</source>
+        <translation>Activating best chain...</translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Append comment to the user agent string</source>
         <translation>Append comment to the user agent string</translation>
     </message>
@@ -6123,7 +5850,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Automatically create Tor hidden service (default: %d)</translation>
     </message>
     <message>
-        <location line="+25"/>
+        <location line="+24"/>
         <source>ERROR! Failed to create automatic backup</source>
         <translation>ERROR! Failed to create automatic backup</translation>
     </message>
@@ -6163,7 +5890,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Enable transaction replacement in the memory pool (default: %u)</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+12"/>
         <source>Error: A fatal internal error occurred, see debug.log for details</source>
         <translation>Error: A fatal internal error occurred, see debug.log for details</translation>
     </message>
@@ -6183,7 +5910,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Failed to delete backup, error: %s</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+2"/>
         <source>Failed to parse host:port string</source>
         <translation>Failed to parse host:port string</translation>
     </message>
@@ -6213,7 +5940,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Last PrivateSend was too recent.</source>
         <translation>Last PrivateSend was too recent.</translation>
     </message>
@@ -6233,12 +5960,17 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Loading addresses...</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Loading block index...</source>
         <translation>Loading block index...</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
+        <source>Loading fullfiled requests cache...</source>
+        <translation>Loading fullfiled requests cache...</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Loading governance cache...</source>
         <translation>Loading governance cache...</translation>
     </message>
@@ -6293,9 +6025,14 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Missing input transaction information.</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+5"/>
         <source>No errors detected.</source>
         <translation>No errors detected.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>No funds detected in need of denominating.</source>
+        <translation>No funds detected in need of denominating.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6383,7 +6120,12 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Pruning blockstore...</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+2"/>
+        <source>Rebuild block chain index from current blk000??.dat files on startup</source>
+        <translation>Rebuild block chain index from current blk000??.dat files on startup</translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Rescan the block chain for missing wallet transactions on startup</source>
         <translation>Rescan the block chain for missing wallet transactions on startup</translation>
     </message>
@@ -6403,7 +6145,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Whether to operate in a blocks only mode (default: %u)</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>ZeroMQ notification options:</source>
         <translation>ZeroMQ notification options:</translation>
     </message>
@@ -6423,7 +6165,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>RPC server options:</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
         <source>Receive and display P2P network alerts (default: %u)</source>
         <translation>Receive and display P2P network alerts (default: %u)</translation>
     </message>
@@ -6513,7 +6255,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Specify your own public address</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+7"/>
         <source>Synchronization pending...</source>
         <translation>Synchronization pending...</translation>
     </message>
@@ -6528,7 +6270,7 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Synchronizing masternode payments...</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>The transaction amount is too small to pay the fee</source>
         <translation>The transaction amount is too small to pay the fee</translation>
     </message>
@@ -6598,12 +6340,12 @@ https://www.transifex.com/projects/p/vivo/</translation>
         <translation>Unknown state: id = %u</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>Username for JSON-RPC connections</source>
         <translation>Username for JSON-RPC connections</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Verifying blocks...</source>
         <translation>Verifying blocks...</translation>
     </message>
@@ -6644,6 +6386,11 @@ https://www.transifex.com/projects/p/vivo/</translation>
     </message>
     <message>
         <location line="+5"/>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation>You need to rebuild the database using -reindex to change -txindex</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Your entries added successfully.</source>
         <translation>Your entries added successfully.</translation>
     </message>

@@ -8,7 +8,7 @@
 #include "clientversion.h"
 #include "protocol.h"
 #include "random.h"
-#include "rpc/protocol.h"
+#include "rpcprotocol.h"
 
 // Necessary to prevent compile errors due to forward declaration of
 //CScript in serialize.h (included from crypter.h)

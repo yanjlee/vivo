@@ -28,7 +28,6 @@ QT_FORMS_UI = \
   qt/forms/editaddressdialog.ui \
   qt/forms/helpmessagedialog.ui \
   qt/forms/intro.ui \
-  qt/forms/modaloverlay.ui \
   qt/forms/masternodelist.ui \
   qt/forms/openuridialog.ui \
   qt/forms/optionsdialog.ui \
@@ -60,7 +59,6 @@ QT_MOC_CPP = \
   qt/moc_intro.cpp \
   qt/moc_macdockiconhandler.cpp \
   qt/moc_macnotificationhandler.cpp \
-  qt/moc_modaloverlay.cpp \
   qt/moc_masternodelist.cpp \
   qt/moc_notificator.cpp \
   qt/moc_openuridialog.cpp \
@@ -130,7 +128,6 @@ BITCOIN_QT_H = \
   qt/intro.h \
   qt/macdockiconhandler.h \
   qt/macnotificationhandler.h \
-  qt/modaloverlay.h \
   qt/masternodelist.h \
   qt/networkstyle.h \
   qt/notificator.h \
@@ -152,7 +149,6 @@ BITCOIN_QT_H = \
   qt/sendcoinsentry.h \
   qt/signverifymessagedialog.h \
   qt/splashscreen.h \
-  qt/trafficgraphdata.h \
   qt/trafficgraphwidget.h \
   qt/transactiondesc.h \
   qt/transactiondescdialog.h \
@@ -170,8 +166,6 @@ BITCOIN_QT_H = \
 RES_ICONS = \
   qt/res/icons/bitcoin.ico \
   qt/res/icons/bitcoin.png \
-  qt/res/icons/chevron.png \
-  qt/res/icons/warning.png \
   qt/res/icons/drkblue/add.png \
   qt/res/icons/drkblue/address-book.png \
   qt/res/icons/drkblue/browse.png \
@@ -199,8 +193,6 @@ RES_ICONS = \
   qt/res/icons/drkblue/eye_minus.png \
   qt/res/icons/drkblue/eye_plus.png \
   qt/res/icons/drkblue/filesave.png \
-  qt/res/icons/drkblue/hd_disabled.png \
-  qt/res/icons/drkblue/hd_enabled.png \
   qt/res/icons/drkblue/history.png \
   qt/res/icons/drkblue/key.png \
   qt/res/icons/drkblue/lock_closed.png \
@@ -222,10 +214,61 @@ RES_ICONS = \
   qt/res/icons/drkblue/about.png \
   qt/res/icons/drkblue/about_qt.png \
   qt/res/icons/drkblue/verify.png \
+<<<<<<< HEAD
   qt/res/icons/drkblue/fontbigger.png \
   qt/res/icons/drkblue/fontsmaller.png \
   qt/res/icons/drkblue/transaction_abandoned.png \
   qt/res/icons/drkblue/network_disabled.png \
+=======
+  qt/res/icons/crownium/add.png \
+  qt/res/icons/crownium/address-book.png \
+  qt/res/icons/crownium/browse.png \
+  qt/res/icons/crownium/clock1.png \
+  qt/res/icons/crownium/clock2.png \
+  qt/res/icons/crownium/clock3.png \
+  qt/res/icons/crownium/clock4.png \
+  qt/res/icons/crownium/clock5.png \
+  qt/res/icons/crownium/configure.png \
+  qt/res/icons/crownium/connect0_16.png \
+  qt/res/icons/crownium/connect1_16.png \
+  qt/res/icons/crownium/connect2_16.png \
+  qt/res/icons/crownium/connect3_16.png \
+  qt/res/icons/crownium/connect4_16.png \
+  qt/res/icons/crownium/debugwindow.png \
+  qt/res/icons/crownium/drkblue_editpaste.png \
+  qt/res/icons/crownium/drkblue_address-book.png \
+  qt/res/icons/crownium/drkblue_editcopy.png \
+  qt/res/icons/crownium/drkblue_remove.png \
+  qt/res/icons/crownium/edit.png \
+  qt/res/icons/crownium/editcopy.png \
+  qt/res/icons/crownium/editpaste.png \
+  qt/res/icons/crownium/export.png \
+  qt/res/icons/crownium/eye.png \
+  qt/res/icons/crownium/eye_minus.png \
+  qt/res/icons/crownium/eye_plus.png \
+  qt/res/icons/crownium/filesave.png \
+  qt/res/icons/crownium/history.png \
+  qt/res/icons/crownium/key.png \
+  qt/res/icons/crownium/lock_closed.png \
+  qt/res/icons/crownium/lock_open.png \
+  qt/res/icons/crownium/masternodes.png \
+  qt/res/icons/crownium/overview.png \
+  qt/res/icons/crownium/quit.png \
+  qt/res/icons/crownium/receive.png \
+  qt/res/icons/crownium/remove.png \
+  qt/res/icons/crownium/send.png \
+  qt/res/icons/crownium/synced.png \
+  qt/res/icons/crownium/transaction0.png \
+  qt/res/icons/crownium/transaction2.png \
+  qt/res/icons/crownium/transaction_conflicted.png \
+  qt/res/icons/crownium/tx_inout.png \
+  qt/res/icons/crownium/tx_input.png \
+  qt/res/icons/crownium/tx_output.png \
+  qt/res/icons/crownium/tx_mined.png \
+  qt/res/icons/crownium/about.png \
+  qt/res/icons/crownium/about_qt.png \
+  qt/res/icons/crownium/verify.png \
+>>>>>>> parent of f8ef0a9... vivo_dev merged with DASH 0.12.2.1
   qt/res/icons/light/add.png \
   qt/res/icons/light/address-book.png \
   qt/res/icons/light/browse.png \
@@ -253,8 +296,6 @@ RES_ICONS = \
   qt/res/icons/light/eye_minus.png \
   qt/res/icons/light/eye_plus.png \
   qt/res/icons/light/filesave.png \
-  qt/res/icons/light/hd_disabled.png \
-  qt/res/icons/light/hd_enabled.png \
   qt/res/icons/light/history.png \
   qt/res/icons/light/key.png \
   qt/res/icons/light/lock_closed.png \
@@ -276,10 +317,6 @@ RES_ICONS = \
   qt/res/icons/light/about.png \
   qt/res/icons/light/about_qt.png \
   qt/res/icons/light/verify.png \
-  qt/res/icons/light/fontbigger.png \
-  qt/res/icons/light/fontsmaller.png \
-  qt/res/icons/light/transaction_abandoned.png \
-  qt/res/icons/light/network_disabled.png \
   qt/res/icons/trad/add.png \
   qt/res/icons/trad/address-book.png \
   qt/res/icons/trad/browse.png \
@@ -307,8 +344,6 @@ RES_ICONS = \
   qt/res/icons/trad/eye_minus.png \
   qt/res/icons/trad/eye_plus.png \
   qt/res/icons/trad/filesave.png \
-  qt/res/icons/trad/hd_disabled.png \
-  qt/res/icons/trad/hd_enabled.png \
   qt/res/icons/trad/history.png \
   qt/res/icons/trad/key.png \
   qt/res/icons/trad/lock_closed.png \
@@ -329,11 +364,7 @@ RES_ICONS = \
   qt/res/icons/trad/tx_mined.png \
   qt/res/icons/trad/about.png \
   qt/res/icons/trad/about_qt.png \
-  qt/res/icons/trad/verify.png \
-  qt/res/icons/trad/fontbigger.png \
-  qt/res/icons/trad/fontsmaller.png \
-  qt/res/icons/trad/transaction_abandoned.png \
-  qt/res/icons/trad/network_disabled.png
+  qt/res/icons/trad/verify.png
 
 BITCOIN_QT_CPP = \
   qt/bantablemodel.cpp \
@@ -345,7 +376,6 @@ BITCOIN_QT_CPP = \
   qt/csvmodelwriter.cpp \
   qt/guiutil.cpp \
   qt/intro.cpp \
-  qt/modaloverlay.cpp \
   qt/networkstyle.cpp \
   qt/notificator.cpp \
   qt/optionsdialog.cpp \
@@ -356,7 +386,6 @@ BITCOIN_QT_CPP = \
   qt/qvaluecombobox.cpp \
   qt/rpcconsole.cpp \
   qt/splashscreen.cpp \
-  qt/trafficgraphdata.cpp \
   qt/trafficgraphwidget.cpp \
   qt/utilitydialog.cpp
 
@@ -499,11 +528,11 @@ QT_QM=$(QT_TS:.ts=.qm)
 
 SECONDARY: $(QT_QM)
 
-qt/vivostrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES) $(libbitcoin_zmq_a_SOURCES) $(libbitcoin_consensus_a_SOURCES) $(libbitcoin_util_a_SOURCES)
+qt/vivostrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
 	$(AM_V_GEN) cd $(srcdir); XGETTEXT=$(XGETTEXT) ../share/qt/extract_strings_qt.py $^
 
-translate: qt/vivostrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) qt/vivo.cpp $(BITCOIN_QT_H) $(BITCOIN_MM)
+translate: qt/vivostrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
 	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/vivo_en.ts
 
