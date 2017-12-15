@@ -219,7 +219,10 @@ RES_ICONS = \
   qt/res/icons/drkblue/fontsmaller.png \
   qt/res/icons/drkblue/transaction_abandoned.png \
   qt/res/icons/drkblue/network_disabled.png \
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 5e89106... fixed vivo-qt
   qt/res/icons/crownium/add.png \
   qt/res/icons/crownium/address-book.png \
   qt/res/icons/crownium/browse.png \
@@ -247,6 +250,11 @@ RES_ICONS = \
   qt/res/icons/crownium/eye_minus.png \
   qt/res/icons/crownium/eye_plus.png \
   qt/res/icons/crownium/filesave.png \
+<<<<<<< HEAD
+=======
+  qt/res/icons/crownium/hd_disabled.png \
+  qt/res/icons/crownium/hd_enabled.png \
+>>>>>>> parent of 5e89106... fixed vivo-qt
   qt/res/icons/crownium/history.png \
   qt/res/icons/crownium/key.png \
   qt/res/icons/crownium/lock_closed.png \
@@ -268,7 +276,14 @@ RES_ICONS = \
   qt/res/icons/crownium/about.png \
   qt/res/icons/crownium/about_qt.png \
   qt/res/icons/crownium/verify.png \
+<<<<<<< HEAD
 >>>>>>> parent of f8ef0a9... vivo_dev merged with DASH 0.12.2.1
+=======
+  qt/res/icons/crownium/fontbigger.png \
+  qt/res/icons/crownium/fontsmaller.png \
+  qt/res/icons/crownium/transaction_abandoned.png \
+  qt/res/icons/crownium/network_disabled.png \
+>>>>>>> parent of 5e89106... fixed vivo-qt
   qt/res/icons/light/add.png \
   qt/res/icons/light/address-book.png \
   qt/res/icons/light/browse.png \
@@ -439,6 +454,19 @@ RES_IMAGES = \
   qt/res/images/drkblue/drkblue_rightArrow_small.png \
   qt/res/images/drkblue/drkblue_qtreeview_selected.png \
   qt/res/images/drkblue/drkblue_walletFrame_bg.png \
+  qt/res/images/crownium/about.png \
+  qt/res/images/crownium/splash.png \
+  qt/res/images/crownium/splash_testnet.png \
+  qt/res/images/crownium/vivo_logo_horizontal.png \
+  qt/res/images/crownium/unchecked.png \
+  qt/res/images/crownium/checked.png \
+  qt/res/images/crownium/drkblue_downArrow.png \
+  qt/res/images/crownium/drkblue_downArrow_small.png \
+  qt/res/images/crownium/drkblue_upArrow_small.png \
+  qt/res/images/crownium/drkblue_leftArrow_small.png \
+  qt/res/images/crownium/drkblue_rightArrow_small.png \
+  qt/res/images/crownium/drkblue_qtreeview_selected.png \
+  qt/res/images/crownium/drkblue_walletFrame_bg.png \
   qt/res/images/light/about.png \
   qt/res/images/light/splash.png \
   qt/res/images/light/splash_testnet.png \
@@ -466,6 +494,7 @@ RES_IMAGES = \
 
 RES_CSS = \
   qt/res/css/drkblue.css \
+  qt/res/css/crownium.css \
   qt/res/css/light.css
 
 RES_MOVIES = $(wildcard qt/res/movies/spinner-*.png)

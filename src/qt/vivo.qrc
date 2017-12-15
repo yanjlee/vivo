@@ -53,7 +53,10 @@
         <file alias="verify">res/icons/drkblue/verify.png</file>
     </qresource>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 5e89106... fixed vivo-qt
     <qresource prefix="/icons/crownium">
         <file alias="address-book">res/icons/crownium/address-book.png</file>
         <file alias="quit">res/icons/crownium/quit.png</file>
@@ -103,8 +106,18 @@
         <file alias="about">res/icons/crownium/about.png</file>
         <file alias="about_qt">res/icons/crownium/about_qt.png</file>
         <file alias="verify">res/icons/crownium/verify.png</file>
+<<<<<<< HEAD
     </qresource>
 >>>>>>> parent of f8ef0a9... vivo_dev merged with DASH 0.12.2.1
+=======
+        <file alias="hd_enabled">res/icons/crownium/hd_enabled.png</file>
+        <file alias="hd_disabled">res/icons/crownium/hd_disabled.png</file>
+        <file alias="fontbigger">res/icons/crownium/fontbigger.png</file>
+        <file alias="fontsmaller">res/icons/crownium/fontsmaller.png</file>
+        <file alias="transaction_abandoned">res/icons/crownium/transaction_abandoned.png</file>
+        <file alias="network_disabled">res/icons/crownium/network_disabled.png</file>
+    </qresource>
+>>>>>>> parent of 5e89106... fixed vivo-qt
     <qresource prefix="/icons/light">
         <file alias="address-book">res/icons/light/address-book.png</file>
         <file alias="quit">res/icons/light/quit.png</file>
@@ -210,11 +223,6 @@
         <file alias="crownium">res/css/crownium.css</file>
         <file alias="light">res/css/light.css</file>
     </qresource>
-    <qresource prefix="/css">
-        <file alias="drkblue">res/css/drkblue.css</file>
-        <file alias="light">res/css/light.css</file>
-        <file alias="light-hires">res/css/light-hires.css</file>
-    </qresource>
     <qresource prefix="/images/drkblue">
         <file alias="about">res/images/drkblue/about.png</file>
         <file alias="vivo_logo_horizontal">res/images/drkblue/vivo_logo_horizontal.png</file>
@@ -229,6 +237,21 @@
         <file alias="drkblue_walletFrame_bg">res/images/drkblue/drkblue_walletFrame_bg.png</file>
         <file alias="splash">res/images/drkblue/splash.png</file>
         <file alias="splash_testnet">res/images/drkblue/splash_testnet.png</file>
+    </qresource>
+    <qresource prefix="/images/crownium">
+        <file alias="about">res/images/crownium/about.png</file>
+        <file alias="vivo_logo_horizontal">res/images/crownium/vivo_logo_horizontal.png</file>
+        <file alias="unchecked">res/images/crownium/unchecked.png</file>
+        <file alias="checked">res/images/crownium/checked.png</file>
+        <file alias="drkblue_downArrow">res/images/crownium/drkblue_downArrow.png</file>
+        <file alias="drkblue_downArrow_small">res/images/crownium/drkblue_downArrow_small.png</file>
+        <file alias="drkblue_upArrow_small">res/images/crownium/drkblue_upArrow_small.png</file>
+        <file alias="drkblue_leftArrow_small">res/images/crownium/drkblue_leftArrow_small.png</file>
+        <file alias="drkblue_rightArrow_small">res/images/crownium/drkblue_rightArrow_small.png</file>
+        <file alias="drkblue_qtreeview_selected">res/images/crownium/drkblue_qtreeview_selected.png</file>
+        <file alias="drkblue_walletFrame_bg">res/images/crownium/drkblue_walletFrame_bg.png</file>
+        <file alias="splash">res/images/crownium/splash.png</file>
+        <file alias="splash_testnet">res/images/crownium/splash_testnet.png</file>
     </qresource>
     <qresource prefix="/images/light">
         <file alias="about">res/images/light/about.png</file>
