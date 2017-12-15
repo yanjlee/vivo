@@ -616,6 +616,62 @@ am__qt_libbitcoinqt_a_SOURCES_DIST = qt/bantablemodel.cpp \
 	qt/res/icons/drkblue/fontsmaller.png \
 	qt/res/icons/drkblue/transaction_abandoned.png \
 	qt/res/icons/drkblue/network_disabled.png \
+<<<<<<< HEAD
+=======
+	qt/res/icons/crownium/add.png \
+	qt/res/icons/crownium/address-book.png \
+	qt/res/icons/crownium/browse.png \
+	qt/res/icons/crownium/clock1.png \
+	qt/res/icons/crownium/clock2.png \
+	qt/res/icons/crownium/clock3.png \
+	qt/res/icons/crownium/clock4.png \
+	qt/res/icons/crownium/clock5.png \
+	qt/res/icons/crownium/configure.png \
+	qt/res/icons/crownium/connect0_16.png \
+	qt/res/icons/crownium/connect1_16.png \
+	qt/res/icons/crownium/connect2_16.png \
+	qt/res/icons/crownium/connect3_16.png \
+	qt/res/icons/crownium/connect4_16.png \
+	qt/res/icons/crownium/debugwindow.png \
+	qt/res/icons/crownium/drkblue_editpaste.png \
+	qt/res/icons/crownium/drkblue_address-book.png \
+	qt/res/icons/crownium/drkblue_editcopy.png \
+	qt/res/icons/crownium/drkblue_remove.png \
+	qt/res/icons/crownium/edit.png \
+	qt/res/icons/crownium/editcopy.png \
+	qt/res/icons/crownium/editpaste.png \
+	qt/res/icons/crownium/export.png qt/res/icons/crownium/eye.png \
+	qt/res/icons/crownium/eye_minus.png \
+	qt/res/icons/crownium/eye_plus.png \
+	qt/res/icons/crownium/filesave.png \
+	qt/res/icons/crownium/hd_disabled.png \
+	qt/res/icons/crownium/hd_enabled.png \
+	qt/res/icons/crownium/history.png \
+	qt/res/icons/crownium/key.png \
+	qt/res/icons/crownium/lock_closed.png \
+	qt/res/icons/crownium/lock_open.png \
+	qt/res/icons/crownium/masternodes.png \
+	qt/res/icons/crownium/overview.png \
+	qt/res/icons/crownium/quit.png \
+	qt/res/icons/crownium/receive.png \
+	qt/res/icons/crownium/remove.png \
+	qt/res/icons/crownium/send.png \
+	qt/res/icons/crownium/synced.png \
+	qt/res/icons/crownium/transaction0.png \
+	qt/res/icons/crownium/transaction2.png \
+	qt/res/icons/crownium/transaction_conflicted.png \
+	qt/res/icons/crownium/tx_inout.png \
+	qt/res/icons/crownium/tx_input.png \
+	qt/res/icons/crownium/tx_output.png \
+	qt/res/icons/crownium/tx_mined.png \
+	qt/res/icons/crownium/about.png \
+	qt/res/icons/crownium/about_qt.png \
+	qt/res/icons/crownium/verify.png \
+	qt/res/icons/crownium/fontbigger.png \
+	qt/res/icons/crownium/fontsmaller.png \
+	qt/res/icons/crownium/transaction_abandoned.png \
+	qt/res/icons/crownium/network_disabled.png \
+>>>>>>> parent of bf9eae5... Fixed issue with accepting blocks
 	qt/res/icons/light/add.png qt/res/icons/light/address-book.png \
 	qt/res/icons/light/browse.png qt/res/icons/light/clock1.png \
 	qt/res/icons/light/clock2.png qt/res/icons/light/clock3.png \
@@ -707,6 +763,22 @@ am__qt_libbitcoinqt_a_SOURCES_DIST = qt/bantablemodel.cpp \
 	qt/res/images/drkblue/drkblue_rightArrow_small.png \
 	qt/res/images/drkblue/drkblue_qtreeview_selected.png \
 	qt/res/images/drkblue/drkblue_walletFrame_bg.png \
+<<<<<<< HEAD
+=======
+	qt/res/images/crownium/about.png \
+	qt/res/images/crownium/splash.png \
+	qt/res/images/crownium/splash_testnet.png \
+	qt/res/images/crownium/vivo_logo_horizontal.png \
+	qt/res/images/crownium/unchecked.png \
+	qt/res/images/crownium/checked.png \
+	qt/res/images/crownium/drkblue_downArrow.png \
+	qt/res/images/crownium/drkblue_downArrow_small.png \
+	qt/res/images/crownium/drkblue_upArrow_small.png \
+	qt/res/images/crownium/drkblue_leftArrow_small.png \
+	qt/res/images/crownium/drkblue_rightArrow_small.png \
+	qt/res/images/crownium/drkblue_qtreeview_selected.png \
+	qt/res/images/crownium/drkblue_walletFrame_bg.png \
+>>>>>>> parent of bf9eae5... Fixed issue with accepting blocks
 	qt/res/images/light/about.png qt/res/images/light/splash.png \
 	qt/res/images/light/splash_testnet.png \
 	qt/res/images/light/vivo_logo_horizontal.png \
@@ -729,8 +801,13 @@ am__qt_libbitcoinqt_a_SOURCES_DIST = qt/bantablemodel.cpp \
 	qt/res/images/trad/drkblue_rightArrow_small.png \
 	qt/res/images/trad/drkblue_qtreeview_selected.png \
 	qt/res/images/trad/drkblue_walletFrame_bg.png \
+<<<<<<< HEAD
 	qt/res/css/drkblue.css qt/res/css/light.css $(wildcard \
 	qt/res/movies/spinner-*.png)
+=======
+	qt/res/css/drkblue.css qt/res/css/crownium.css \
+	qt/res/css/light.css $(wildcard qt/res/movies/spinner-*.png)
+>>>>>>> parent of bf9eae5... Fixed issue with accepting blocks
 @ENABLE_QT_TRUE@@TARGET_WINDOWS_TRUE@am__objects_5 = qt/qt_libbitcoinqt_a-winshutdownmonitor.$(OBJEXT)
 @ENABLE_QT_TRUE@@ENABLE_WALLET_TRUE@am__objects_6 = qt/qt_libbitcoinqt_a-addressbookpage.$(OBJEXT) \
 @ENABLE_QT_TRUE@@ENABLE_WALLET_TRUE@	qt/qt_libbitcoinqt_a-addresstablemodel.$(OBJEXT) \
@@ -2529,6 +2606,63 @@ EXTRA_DIST = leveldb $(am__append_23)
 @ENABLE_QT_TRUE@  qt/res/icons/drkblue/fontsmaller.png \
 @ENABLE_QT_TRUE@  qt/res/icons/drkblue/transaction_abandoned.png \
 @ENABLE_QT_TRUE@  qt/res/icons/drkblue/network_disabled.png \
+<<<<<<< HEAD
+=======
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/add.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/address-book.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/browse.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/clock1.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/clock2.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/clock3.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/clock4.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/clock5.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/configure.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/connect0_16.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/connect1_16.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/connect2_16.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/connect3_16.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/connect4_16.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/debugwindow.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/drkblue_editpaste.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/drkblue_address-book.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/drkblue_editcopy.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/drkblue_remove.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/edit.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/editcopy.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/editpaste.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/export.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/eye.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/eye_minus.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/eye_plus.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/filesave.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/hd_disabled.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/hd_enabled.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/history.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/key.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/lock_closed.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/lock_open.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/masternodes.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/overview.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/quit.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/receive.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/remove.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/send.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/synced.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/transaction0.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/transaction2.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/transaction_conflicted.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/tx_inout.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/tx_input.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/tx_output.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/tx_mined.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/about.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/about_qt.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/verify.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/fontbigger.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/fontsmaller.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/transaction_abandoned.png \
+@ENABLE_QT_TRUE@  qt/res/icons/crownium/network_disabled.png \
+>>>>>>> parent of bf9eae5... Fixed issue with accepting blocks
 @ENABLE_QT_TRUE@  qt/res/icons/light/add.png \
 @ENABLE_QT_TRUE@  qt/res/icons/light/address-book.png \
 @ENABLE_QT_TRUE@  qt/res/icons/light/browse.png \
@@ -2666,6 +2800,22 @@ EXTRA_DIST = leveldb $(am__append_23)
 @ENABLE_QT_TRUE@  qt/res/images/drkblue/drkblue_rightArrow_small.png \
 @ENABLE_QT_TRUE@  qt/res/images/drkblue/drkblue_qtreeview_selected.png \
 @ENABLE_QT_TRUE@  qt/res/images/drkblue/drkblue_walletFrame_bg.png \
+<<<<<<< HEAD
+=======
+@ENABLE_QT_TRUE@  qt/res/images/crownium/about.png \
+@ENABLE_QT_TRUE@  qt/res/images/crownium/splash.png \
+@ENABLE_QT_TRUE@  qt/res/images/crownium/splash_testnet.png \
+@ENABLE_QT_TRUE@  qt/res/images/crownium/vivo_logo_horizontal.png \
+@ENABLE_QT_TRUE@  qt/res/images/crownium/unchecked.png \
+@ENABLE_QT_TRUE@  qt/res/images/crownium/checked.png \
+@ENABLE_QT_TRUE@  qt/res/images/crownium/drkblue_downArrow.png \
+@ENABLE_QT_TRUE@  qt/res/images/crownium/drkblue_downArrow_small.png \
+@ENABLE_QT_TRUE@  qt/res/images/crownium/drkblue_upArrow_small.png \
+@ENABLE_QT_TRUE@  qt/res/images/crownium/drkblue_leftArrow_small.png \
+@ENABLE_QT_TRUE@  qt/res/images/crownium/drkblue_rightArrow_small.png \
+@ENABLE_QT_TRUE@  qt/res/images/crownium/drkblue_qtreeview_selected.png \
+@ENABLE_QT_TRUE@  qt/res/images/crownium/drkblue_walletFrame_bg.png \
+>>>>>>> parent of bf9eae5... Fixed issue with accepting blocks
 @ENABLE_QT_TRUE@  qt/res/images/light/about.png \
 @ENABLE_QT_TRUE@  qt/res/images/light/splash.png \
 @ENABLE_QT_TRUE@  qt/res/images/light/splash_testnet.png \
@@ -2693,6 +2843,10 @@ EXTRA_DIST = leveldb $(am__append_23)
 
 @ENABLE_QT_TRUE@RES_CSS = \
 @ENABLE_QT_TRUE@  qt/res/css/drkblue.css \
+<<<<<<< HEAD
+=======
+@ENABLE_QT_TRUE@  qt/res/css/crownium.css \
+>>>>>>> parent of bf9eae5... Fixed issue with accepting blocks
 @ENABLE_QT_TRUE@  qt/res/css/light.css
 
 @ENABLE_QT_TRUE@RES_MOVIES = $(wildcard qt/res/movies/spinner-*.png)

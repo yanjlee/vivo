@@ -90,7 +90,6 @@ if ENABLE_ZMQ:
 testScripts = [
     'bip68-112-113-p2p.py',
     'wallet.py',
-    'wallet-hd.py',
     'listtransactions.py',
     'receivedby.py',
     'mempool_resurrect_test.py',
@@ -108,7 +107,6 @@ testScripts = [
     'proxy_test.py',
     'merkle_blocks.py',
     'fundrawtransaction.py',
-    'fundrawtransaction-hd.py',
     'signrawtransactions.py',
     'walletbackup.py',
     'nodehandling.py',
@@ -122,7 +120,6 @@ testScripts = [
     'disablewallet.py',
     'sendheaders.py', # NOTE: needs vivo_hash to pass
     'keypool.py',
-    'keypool-hd.py',
     'prioritise_transaction.py',
     'invalidblockrequest.py', # NOTE: needs vivo_hash to pass
     'invalidtxrequest.py', # NOTE: needs vivo_hash to pass

@@ -71,7 +71,11 @@
         <string>application/x-vivo-payment-request</string>
         <key>public.filename-extension</key>
         <array>
+<<<<<<< HEAD
           <string>vivopaymentrequest</string>
+=======
+          <string>vivocoinmentrequest</string>
+>>>>>>> parent of bf9eae5... Fixed issue with accepting blocks
         </array>
       </dict>
     </dict>

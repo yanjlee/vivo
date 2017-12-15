@@ -106,10 +106,17 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
+<<<<<<< HEAD
     WriteRegStr HKCR "vivo" "URL Protocol" ""
     WriteRegStr HKCR "vivo" "" "URL:Vivo"
     WriteRegStr HKCR "vivo\DefaultIcon" "" $INSTDIR\vivo-qt.exe
     WriteRegStr HKCR "vivo\shell\open\command" "" '"$INSTDIR\vivo-qt.exe" "%1"'
+=======
+    WriteRegStr HKCR "vivocore" "URL Protocol" ""
+    WriteRegStr HKCR "vivocore" "" "URL:Vivo"
+    WriteRegStr HKCR "vivocore\DefaultIcon" "" $INSTDIR\vivo-qt.exe
+    WriteRegStr HKCR "vivocore\shell\open\command" "" '"$INSTDIR\vivo-qt.exe" "%1"'
+>>>>>>> parent of bf9eae5... Fixed issue with accepting blocks
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -147,7 +154,11 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
+<<<<<<< HEAD
     DeleteRegKey HKCR "vivo"
+=======
+    DeleteRegKey HKCR "vivocore"
+>>>>>>> parent of bf9eae5... Fixed issue with accepting blocks
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

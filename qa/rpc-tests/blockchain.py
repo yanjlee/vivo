@@ -5,7 +5,7 @@
 
 #
 # Test RPC calls related to blockchain state. Tests correspond to code in
-# rpc/blockchain.cpp.
+# rpcblockchain.cpp.
 #
 
 from decimal import Decimal

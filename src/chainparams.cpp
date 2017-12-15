@@ -78,11 +78,15 @@ public:
         consensus.nMasternodePaymentsIncreasePeriod = 576*30; // not used
         consensus.nInstantSendKeepLock = 24;
 <<<<<<< HEAD
+<<<<<<< HEAD
         consensus.nBudgetPaymentsStartBlock = 2100000000; // 2030
+=======
+        consensus.nBudgetPaymentsStartBlock = 1798761600; // 2030
+>>>>>>> parent of bf9eae5... Fixed issue with accepting blocks
         consensus.nBudgetPaymentsCycleBlocks = 16616; // ~(60*24*30)/2.6, actual number of blocks per month is 200700 / 12 = 16725
         consensus.nBudgetPaymentsWindowBlocks = 100;
         consensus.nBudgetProposalEstablishingTime = 60*60*24;
-        consensus.nSuperblockStartBlock = 2100000000; // The block at which 12.1 goes live (end of final 12.0 budget cycle)
+        consensus.nSuperblockStartBlock = 1798761600; // The block at which 12.1 goes live (end of final 12.0 budget cycle)
         consensus.nSuperblockCycle = 16616; // ~(60*24*30)/2.6, actual number of blocks per month is 200700 / 12 = 16725
 =======
         consensus.nBudgetPaymentsStartBlock = 2100000000; // year 10000+
@@ -99,6 +103,7 @@ public:
         consensus.nMajorityRejectBlockOutdated = 950;
         consensus.nMajorityWindow = 1000;
 <<<<<<< HEAD
+<<<<<<< HEAD
 //        consensus.BIP34Height = 55043; // FIX
 //        consensus.BIP34Hash = uint256S("0x0000000000d0ceecb2140bfbacb17d45ab36c025094aba986d3a41f7bb0254ae"); // FIX
 //        consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
@@ -107,6 +112,10 @@ public:
 >>>>>>> parent of f8ef0a9... vivo_dev merged with DASH 0.12.2.1
         consensus.BIP34Height = 227931; // FIX
         consensus.BIP34Hash = uint256S("0x000000000000024b89b42a942fe0d9fea3bb44ab7bd1b19115dd6a759c0808b8"); // FIX
+=======
+        consensus.BIP34Height = 55043; // FIX
+        consensus.BIP34Hash = uint256S("0x0000000000d0ceecb2140bfbacb17d45ab36c025094aba986d3a41f7bb0254ae"); // FIX
+>>>>>>> parent of bf9eae5... Fixed issue with accepting blocks
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
         consensus.nPowTargetTimespan = 30 * 2 * 60; // Vivo: 1 hour, 30 blocks
         consensus.nPowTargetSpacing = 2 * 60; // Vivo: 2 minutes
@@ -120,14 +129,19 @@ public:
 
         // Deployment of BIP68, BIP112, and BIP113.
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].bit = 0;
+<<<<<<< HEAD
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 1502280000; // Aug 9th, 2017
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 1533816000; // Aug 9th, 2018
 <<<<<<< HEAD
+=======
+        consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 1486252800; // Feb 5th, 2017
+        consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 1517788800; // Feb 5th, 2018
+>>>>>>> parent of bf9eae5... Fixed issue with accepting blocks
 
         // Deployment of DIP0001
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].bit = 1;
-        consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nStartTime = 1513296000; // Dec 15th, 2017
-        consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nTimeout = 1544832000; // Nov 15th, 2018
+        consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nStartTime = 1510746823; // Nov 15th, 2017
+        consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nTimeout = 1542282851; // Nov 15th, 2018
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nWindowSize = 4032;
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nThreshold = 3226; // 80% of 4032
 
@@ -210,7 +224,6 @@ static CMainParams mainParams;
 /**
  * Testnet (v3)
  */
-/*
 class CTestNetParams : public CChainParams {
 public:
     CTestNetParams() {
@@ -246,6 +259,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nTimeout = 1230767999; // December 31, 2008
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         consensus.BIP34Height = 227931; // FIX
         consensus.BIP34Hash = uint256S("0x000000000000024b89b42a942fe0d9fea3bb44ab7bd1b19115dd6a759c0808b8"); // FIX
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
@@ -274,6 +288,8 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nWindowSize = 4032;
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nThreshold = 3226; // 80% of 4032
 
+=======
+>>>>>>> parent of bf9eae5... Fixed issue with accepting blocks
         // Deployment of DIP0001
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].bit = 1;
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nStartTime = 1510746823; // Nov 15th, 2017
@@ -345,6 +361,7 @@ public:
 
     }
 };
+<<<<<<< HEAD
 */
 
 class CTestNetParams : public CChainParams {
@@ -441,6 +458,8 @@ public:
     }
 };
 
+=======
+>>>>>>> parent of bf9eae5... Fixed issue with accepting blocks
 static CTestNetParams testNetParams;
 
 /**

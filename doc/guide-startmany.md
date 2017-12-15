@@ -1,4 +1,4 @@
-# start-many Setup Guide
+#start-many Setup Guide
 
 ## Two Options for Setting up your Wallet
 There are many ways to setup a wallet to support start-many. This guide will walk through two of them.
@@ -95,7 +95,7 @@ Issue the following:
 Make note of the hash (which is your collateral_output) and index.
 
 ### Enter your Masternode details into your masternode.conf file
-[From the vivo github repo](https://github.com/vivopay/vivo/blob/master/doc/masternode_conf.md)
+[From the vivo github repo](https://github.com/vivocoin/vivo/blob/master/doc/masternode_conf.md)
 
 `masternode.conf` format is a space seperated text file. Each line consisting of an alias, IP address followed by port, masternode private key, collateral output transaction id and collateral output index.
 
@@ -164,7 +164,7 @@ It should return you something like that:
 ```
 vivo-cli masternode status
 {
-    "outpoint" : "<collateral_output>-<collateral_output_index>",
+    "vin" : "CTxIn(COutPoint(<collateral_output>, <collateral_output_index>), scriptSig=)",
     "service" : "<ipaddress>:<port>",
     "pubkey" : "<1000 VIVO address>",
     "status" : "Masternode successfully started"

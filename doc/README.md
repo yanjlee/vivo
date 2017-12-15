@@ -11,8 +11,8 @@ The following are some helpful notes on how to run Vivo on your native platform.
 
 Unpack the files into a directory and run:
 
-- `bin/vivo-qt` (GUI) or
-- `bin/vivod` (headless)
+- `bin/bitcoin-qt` (GUI) or
+- `bin/bitcoind` (headless)
 
 ### Windows
 
@@ -24,9 +24,9 @@ Drag Vivo-Qt to your applications folder, and then run Vivo-Qt.
 
 ### Need Help?
 
-* See the [Vivo documentation](https://vivopay.atlassian.net/wiki/display/DOC)
+* See the [Vivo documentation](https://vivocoin.atlassian.net/wiki/display/DOC)
 for help and more information.
-* Ask for help on [#vivopay](http://webchat.freenode.net?channels=vivopay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=vivopay).
+* Ask for help on [#vivocoin](http://webchat.freenode.net?channels=vivocoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=vivocoin).
 * Ask for help on the [VivoTalk](https://vivotalk.org/) forums.
 
 Building
@@ -58,7 +58,7 @@ The Vivo Core repo's [root README](/README.md) contains relevant information on 
 
 ### Resources
 * Discuss on the [VivoTalk](https://vivotalk.org/) forums, in the Development & Technical Discussion board.
-* Discuss on [#vivopay](http://webchat.freenode.net/?channels=vivopay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=vivopay).
+* Discuss on [#vivocoin](http://webchat.freenode.net/?channels=vivocoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=vivocoin).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
