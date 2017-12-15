@@ -5,6 +5,7 @@ define(_CLIENT_VERSION_MINOR, 12)
 <<<<<<< HEAD
 <<<<<<< HEAD
 define(_CLIENT_VERSION_REVISION, 2)
+<<<<<<< HEAD
 define(_CLIENT_VERSION_BUILD, 1)
 =======
 define(_CLIENT_VERSION_REVISION, 1)
@@ -14,6 +15,9 @@ define(_CLIENT_VERSION_BUILD, 6)
 define(_CLIENT_VERSION_REVISION, 1)
 define(_CLIENT_VERSION_BUILD, 7)
 >>>>>>> parent of 1d1f9e5... Fix configure
+=======
+define(_CLIENT_VERSION_BUILD, 0)
+>>>>>>> parent of cced04b... more cleanup
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2017)
 AC_INIT([Vivo Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/vivocoin/vivo/issues],[vivocore])
